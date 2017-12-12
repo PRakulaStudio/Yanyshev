@@ -157,7 +157,7 @@ NOTE:
 /*************************
        Intro typer
 *************************/
-  var win = $(window),
+ /* var win = $(window),
       foo = $('#typer');
       foo.typer(['<h2>Associate / Family Lawyer </h2>', '<h2>Attorney General / Property Lawyer</h2>' ]);
             win.resize(function(){
@@ -165,7 +165,7 @@ NOTE:
               foo.css({
               fontSize: fontSize * .3 + 'px'
             });
-  }).resize();
+  }).resize();*/
 
 /*************************
           Skill

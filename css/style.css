@@ -121,7 +121,7 @@ button.button-small:hover { background: #bea042; }
 
 @keyframes object_three {
   25% { transform:  translate(-50px,0) rotate(-180deg); -webkit-transform:  translate(-50px,0) rotate(-180deg); } 
-  100% { transform: translate(0,0) rotate(-180deg); -webkit-transform: rtranslate(0,0) rotate(-180deg); }
+  100% { transform: translate(0,0) rotate(-180deg); -webkit-transform: translate(0,0) rotate(-180deg); }
 }
 @-webkit-keyframes object_four {
   25% { -webkit-transform: translate(0,50px) rotate(-180deg); }
@@ -137,10 +137,67 @@ button.button-small:hover { background: #bea042; }
 *************************/
 .white-bg { background: #ffffff; }
 .page-section { padding: 60px 0px; }
-.page-section-pt { padding: 60px 0px 0; }
+.page-section-pt {
+    background-color: #262423;
+    padding: 10px 0;
+}
+.page-section-pt .content {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.page-section-pt .content .left {
+    float: left;
+    width: 33.3%;
+    line-height: 32px;
+}
+.page-section-pt .content .left p {
+    font-size: 15px;
+    color: #fff;
+    line-height: 32px;
+    margin: 0;
+}
+.page-section-pt .content .center {
+    float: left;
+    width: 33.3%;
+    text-align: center;
+}
+.page-section-pt .content .center p {
+    font-size: 15px;
+    color: #fff;
+    font-weight: 400;
+    line-height: 32px;
+    margin: 0;
+}
+.page-section-pt .content .right {
+    float: left;
+    width: 33.3%;
+    text-align: right;
+}
+.page-section-pt .content .right p {
+    font-size: 13px;
+    color: #fff;
+    font-weight: 400;
+    margin: 0;
+
+}
+.page-section-pt .content .right a {
+    display: inline-block;
+
+    font-size: 18px;
+    color: #bea042;
+    font-weight: 700;
+}
 .page-section-pb { padding: 0px 0px 60px; }
 .container-fluid { padding: 0px 150px; }
- 
+
+#skill .content {
+    max-width: 1200px;
+    margin: 0 auto;
+}
 
 /*************************
     header
@@ -185,7 +242,12 @@ button.button-small:hover { background: #bea042; }
 
 /*intro*/
 .intro-bg { background-size: cover !important; background-repeat: no-repeat; background-position: center; bottom; position: relative; height: 100vh; width: 100%; }
-.intro { display: table; width: 100%; height: 100%; position: relative; }
+.intro { display: table; width: 100%; height: 100%; position: absolute; top: 0; z-index: 2; }
+.owl-carousel-1 .owl-item img {
+    height: 100vh;
+    object-fit: cover;
+    object-position: 20% center;
+}
 .intro-content { display: table-cell; height: 100%; vertical-align: middle; } 
 .intro-content h1 { font-size: 72px; color: #ffffff; font-weight: bold; text-transform: uppercase; font-weight: 700; font-family: 'Raleway', sans-serif; }
 .intro-content h1 span { font-size: 30px; display: block; font-family: 'Raleway', sans-serif; font-weight: 600; }
@@ -236,6 +298,7 @@ margin-left: -17px; line-height: 50px; }
 /*block-contact*/
 /*.about{ margin-top: 60px; }*/
 .about  { margin-top: 50px; }
+.about-image img { width:100%;}
 .about .section-title { margin-bottom: 20px; }
 .about-social { background: #bea042; padding: 15px 10px; text-align: center; }
 .about-social ul { padding: 0px; margin: 0px; }
