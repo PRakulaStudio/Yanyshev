@@ -173,7 +173,12 @@
 .port-title { margin-top: 50px; }
 .contact-content.show-contact { overflow-y: scroll; overflow-x: auto;} 
 .slidebar-widget { margin-bottom: 0px; }
-
+ .page-section-pt.footer .content  p{
+  font-size: 9px;
+ }
+ .page-section-pt.footer .content a{
+  font-size: 13px;
+ }
 
 }
 
@@ -197,7 +202,12 @@
 .about-image img { width: 100%; }
 .my-contact .contact-icon span { font-size: 28px; line-height: 40px; }
 .my-contact { margin-top: 30px; }
-
+ .page-section-pt.footer .content  p{
+  font-size: 9px;
+ }
+ .page-section-pt.footer .content a{
+  font-size: 13px;
+ }
 .navbar-default .navbar-collapse.in { height: 100vh; overflow-y: scroll !important; padding-bottom: 60px; }
 
 }
@@ -226,7 +236,12 @@
 .date-area > .date { background: transparent; color: #ffffff; }
 .blog-single .contact-form .section-field { width: 100%; }
 .contact-toggle span { width: 60px; height: 60px; font-size: 20px; line-height: 64px; }
-
+ .page-section-pt.footer .content  p{
+  font-size: 9px;
+ }
+ .page-section-pt.footer .content a{
+  font-size: 13px;
+ }
 }  
 
 @media( max-width:479px) {  
@@ -254,6 +269,12 @@
 .single-portfolio-post .port-post-info { padding-left: 0px; margin-top: 30px; }
 .single-portfolio-post .port-post-social a { display: inline-block; }
 .error p { line-height: 30px; }
-
+.page-section-pt { padding: 0; }
+ .page-section-pt.footer .content  p{
+  font-size: 9px;
+ }
+ .page-section-pt.footer .content a{
+  font-size: 13px;
+ }
 }  
  
