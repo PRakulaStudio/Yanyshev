@@ -129,8 +129,14 @@ button.button-small:hover { background: #bea042; }
 *************************/
 .white-bg { background: #ffffff; }
 .page-section { padding: 60px 0px; }
+.page-section-pt.footer {
+    background: rgba(28, 28, 28, 0.8);
+}
+.page-section-pt.footer .clearfix{
+    display: flex;
+    align-items: center;
+}
 .page-section-pt {
-    background-color: #262423;
     padding: 10px 0;
 }
 .page-section-pt .content {
@@ -556,7 +562,7 @@ textarea:focus { background: transparent; box-shadow: 0 0 17px 0 #ebebeb; outlin
 /*************************
        blog page
 *************************/
-.bg { background: url(../images/bg/01.jpg); background-attachment: fixed; background-clip: initial; background-color: rgba(0, 0, 0, 0); background-origin: initial; background-position: center center; background-repeat: no-repeat; background-size: cover !important; position: relative; z-index: 0; }
+.bg { background: url(../images/bg/2_image.JPG); background-attachment: fixed; background-clip: initial; background-color: rgba(0, 0, 0, 0); background-origin: initial; background-position: center center; background-repeat: no-repeat; background-size: cover !important; position: relative; z-index: 0; }
 .page-header { padding: 170px 10px 50px; margin: 0px; width: 100%; height: 490px; position: relative; }
 .page-header.bg.gradient-01:before { z-index: -1; }
 .gradient-01:before { background: rgba(0, 0, 0, 0.6); content:""; height:100%; left:0; position:absolute; top:0; width:100%; z-index: 0; }
@@ -626,6 +632,7 @@ textarea:focus { background: transparent; box-shadow: 0 0 17px 0 #ebebeb; outlin
 .slidebar-share ul { display: table-cell; }
 .slidebar-share ul li { display: inline-block; }
 .slidebar-share ul li a { display: block; font-size: 14px; color: #9ea8b6; padding: 0 10px; }
+.slidebar-share ul li span { margin-left: 10px; }
 .slidebar-share ul li a:hover { color: #bea042; }
 .blog-comments { margin-top: 50px; }
 .comments-1 .comments-photo { width: 106px; height: auto; float: left; border:5px solid #f8f9fa; margin-right: 20px; }
