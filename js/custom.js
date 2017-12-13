@@ -51,6 +51,7 @@
        nav:false
       }); 
   });
+    $('.owl-carousel-1').fadeIn();
 
 /*************************
         Menu scroll

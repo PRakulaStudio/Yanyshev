@@ -239,7 +239,7 @@ button.button-small:hover { background: #bea042; }
 
 
 /*intro*/
-.intro-bg { background-size: cover !important; background-repeat: no-repeat; background-position: center; bottom; position: relative; height: 100vh; width: 100%; }
+.intro-bg { background-size: cover !important; background-repeat: no-repeat; background-position: center; bottom; position: relative; height: 100vh; width: 100%; background: gray; }
 .intro { display: table; width: 100%; height: 100%; position: absolute; top: 0; z-index: 2; }
 .owl-carousel-1 .owl-item img {
     height: 100vh;
