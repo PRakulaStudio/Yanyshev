@@ -201,7 +201,7 @@ button.button-small:hover { background: #bea042; }
     header
 *************************/
 .menu-responsive { display: none; }
-.header { position: absolute; top: 0; width: 100%; overflow: visible; display: block; z-index: 999; background: rgba(28, 28, 28, 0.3); padding: 0 50px; }
+.header { position: absolute; top: 0; width: 100%; overflow: visible; display: block; z-index: 999; background: rgba(28, 28, 28, 0.6); padding: 0 50px; }
 /*menu*/
 .navbar { border-radius: 0px; }
 .navbar-collapse { height: auto; border-top: 0; box-shadow: none; max-height: none; padding-left:0; padding-right:0; }
@@ -215,7 +215,21 @@ button.button-small:hover { background: #bea042; }
 .navbar-header { float:left;  }
 .navbar-right .dropdown-menu { left:0; right:auto; }
 .navbar-collapse .navbar-nav.navbar-right:last-child { margin-right: 0; }
-.navbar-brand { height: inherit; padding: 22px 0px; }
+.navbar-default .navbar-brand {
+    color: #fff;
+    font-weight: 600;
+    padding: 22px 0px;
+    height: 100px;
+    transition: all 0.4s ease-in-out;
+    -webkit-transition: all 0.4s ease-in-out;
+    -o-transition: all 0.4s ease-in-out;
+    -ms-transition: all 0.4s ease-in-out;
+    -moz-transition: all 0.4s ease-in-out;
+    -moz-transition: all 0.4s ease-in-out;
+}
+.navbar-brand span {
+    display: block;
+}
 .navbar-brand img { height: 60px;  transition: all 0.4s ease-in-out; -webkit-transition: all 0.4s ease-in-out; -o-transition: all 0.4s ease-in-out; -ms-transition: all 0.4s ease-in-out; -moz-transition: all 0.4s ease-in-out; -moz-transition: all 0.4s ease-in-out; }
 .navbar-default { background: transparent; border: 0px; margin-bottom: 0px; }
 .navbar-default .navbar-nav > li > a { font-size: 14px; text-transform: uppercase; color: #ffffff; font-family: 'Raleway', sans-serif; font-weight: 600; padding:40px 17px; border-bottom: 5px solid transparent; }
@@ -233,7 +247,7 @@ button.button-small:hover { background: #bea042; }
 .nav .open>a, .nav .open>a:focus, .nav .open>a:hover { border-color: #bea042; }
 
  #menu.sticky { position: fixed; top: 0; left: 0px; right: 0px; padding: 0 50px; z-index: 9999; width: 100%; background: #282828  ;  }
- #menu.sticky .navbar-nav > li > a  { padding: 30px 17px; }
+ #menu.sticky .navbar-nav > li > a  { padding: 38px 17px; }
  #menu.sticky .navbar-brand > img { height: 40px; }
  #menu.sticky .navbar-nav > li:last-child > a { padding-right: 0px; }
 
