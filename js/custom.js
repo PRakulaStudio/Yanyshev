@@ -25,14 +25,18 @@
 (function($){
   "use strict";
  
-  $(window).load(function() {
+  $(document).ready(function() {
 
 /*************************
         Preloader
 *************************/  
-   $("#load").fadeOut();
-   $('#loading').delay(0).fadeOut('slow');
+  // $("#load").fadeOut();
+   //$('#loading').delay(0).fadeOut('slow');
 
+
+  $('.phone-button').on('click', function () {
+     $(this).html($(this).data('phone'));
+  });
 /*************************
         Owl carousel
 *************************/
