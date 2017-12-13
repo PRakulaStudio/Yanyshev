@@ -1,13 +1,4 @@
-/*
 
-Template: Sam Martin - Personal Vcard Resume HTML Template
-Author: potenzaglobalsolutions.com
-Version: 1.0
-Design and Developed by: potenzaglobalsolutions.com
-
-NOTE:  
-
-*/
 
 (function($){
   "use strict";
