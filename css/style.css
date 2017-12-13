@@ -303,8 +303,9 @@ margin-left: -17px; line-height: 50px; }
 .about-social { background: #bea042; padding: 15px 10px; text-align: center; }
 .about-social ul { padding: 0px; margin: 0px; }
 .about-social ul li { display: inline-block; }
-.about-social ul li a { display: block; margin: 0px 5px; width: 40px; height: 40px; background: #a88a2a; color: #ffffff; line-height: 40px; text-align: center; border-radius: 50%; font-size: 14px; }
-.about-social ul li a:hover { background: #282828 ; }
+.about-social ul li a { display: block; margin: 0px 5px; width: 145px; height: 40px; background: #a88a2a; color: #ffffff; line-height: 40px; text-align: center;  font-size: 14px; }
+.about-social ul li i { margin-right: 12px; }
+ .about-social ul li a:hover { background: #282828 ; }
 /*my-contact*/
 .my-contact { margin-top: 50px }
 .my-contact .contact-icon { float: left; margin-right: 25px; }
@@ -319,9 +320,9 @@ margin-left: -17px; line-height: 50px; }
 /*************************
           service
 *************************/
-.service-block { position: relative; overflow: hidden; margin-right: 30px; }
+.service-block { position: relative; overflow: hidden; margin-right: 30px; min-height: 330px;}
 .service-block span { font-size: 50px; color: #a1aab6; display: block; margin-bottom: 30px; }
-.service-block h2 { text-transform: capitalize; font-weight: 500; margin-bottom: 30px }
+.service-block h2 { font-weight: 500; margin-bottom: 30px }
 .service-block p { margin-bottom: 60px; }
 .service-block .contact-button { height: 5px; position: absolute; bottom: 0; left: 0px; right: 0px; background: #bea042; transition: all 0.3s ease-in-out;   -webkit-transition: all 0.3s ease-in-out; -o-transition: all 0.3s ease-in-out; -moz-transition: all 0.3s ease-in-out; -ms-transition: all 0.3s ease-in-out; }
 .service-block .contact-button:hover { background: #282828  ; }
