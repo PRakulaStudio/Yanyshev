@@ -21,6 +21,10 @@
 .blog-info .blog-meta p a { margin-bottom: 3px; }
 .contact .social ul li a { padding-right: 20px; }
 .slidebar-share ul li a { padding: 0 5px; }
+.navbar-default .navbar-brand {
+ font-size: 13px;
+ padding: 16px 0;
+}
 
 
 }	
@@ -100,6 +104,15 @@
  .chart-bar h3 { font-size: 18px; display: block; padding-left:30px; line-height: 26px; }
 .author-details .author-avtar { display: block; }
 .author-details .author-name { padding-left: 0px; }
+.navbar-default .navbar-brand {
+ font-size: 11px;
+ line-height: 18px;
+}
+
+.footer .left p {
+ display: flex;
+ flex-direction: column;
+}
 
 }
 
@@ -174,7 +187,8 @@
 .contact-content.show-contact { overflow-y: scroll; overflow-x: auto;} 
 .slidebar-widget { margin-bottom: 0px; }
  .page-section-pt.footer .content  p{
-  font-size: 9px;
+  font-size: 12px;
+  line-height: 22px;
  }
  .page-section-pt.footer .content a{
   font-size: 13px;
@@ -271,10 +285,25 @@
 .error p { line-height: 30px; }
 .page-section-pt { padding: 0; }
  .page-section-pt.footer .content  p{
-  font-size: 9px;
+  font-size: 11px;
  }
  .page-section-pt.footer .content a{
   font-size: 13px;
  }
-}  
+}
+
+@media (max-width: 400px) {
+ .page-section-pt.footer .content p {
+  font-size: 8px;
+  line-height: 15px;
+ }
+}
+
+@media (max-width: 320px) {
+ .navbar-default .navbar-brand{
+   font-size: 14px;
+   padding: 15px 0;
+   height:auto;
+ }
+}
  
