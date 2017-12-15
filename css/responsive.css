@@ -194,6 +194,13 @@
   font-size: 13px;
  }
 
+ .owl-carousel-1 .owl-item img.horiz {
+  display:none;
+ }
+ .owl-carousel-1 .owl-item img.vertical {
+  display:block;
+ }
+
 }
 
 @media( max-width:767px) {

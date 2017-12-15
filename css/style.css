@@ -260,6 +260,9 @@ button.button-small:hover { background: #bea042; }
     object-fit: cover;
     object-position: 20% center;
 }
+.owl-carousel-1 .owl-item img.vertical {
+    display:none;
+}
 .intro-content { display: table-cell; height: 100%; vertical-align: middle; } 
 .intro-content h1 { font-size: 72px; color: #ffffff; font-weight: bold; text-transform: uppercase; font-weight: 700; font-family: 'Raleway', sans-serif; }
 .intro-content h1 span { font-size: 30px; display: block; font-family: 'Raleway', sans-serif; font-weight: 600; }
