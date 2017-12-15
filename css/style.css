@@ -621,12 +621,15 @@ textarea:focus { background: transparent; box-shadow: 0 0 17px 0 #ebebeb; outlin
 .page-header-title .blog-meta p { display: inline-block; font-size: 14px; font-weight: 600; color: #282828  ; padding-right: 12px; margin-bottom: 0px; }
 .page-header-title .blog-meta p a { color: #ffffff; }
 .page-header-title .blog-meta p a:hover { color: #bea042; }
-.blog-single .content { margin-top: 30px; }
+.blog-single .content { margin-top: 30px; color: #282828;}
+.blog-single .content p {
+    color: #282828;
+}
 .blog-single .content b { margin-bottom: 20px; display: block; }
 .blog-single .content .social li { display: inline-block; }
 .blog-single .content .social li a { display: block; font-size: 16px; color: #9ea8b6; padding-right: 10px; }
 .blog-single blockquote { border-color: #bea042; margin :30px 0px 30px; }
-.blog-single blockquote p { font-size: 16px; font-style: italic; }
+.blog-single blockquote p { font-size: 16px; font-style: italic;  }
 .blog-single blockquote p span { color: #bea042; margin-top: 10px; display: block; }
 .author { background: #f4f5f6; padding: 15px; }
 .author-details .author-avtar { display: table-cell; }
