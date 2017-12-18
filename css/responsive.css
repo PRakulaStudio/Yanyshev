@@ -22,8 +22,8 @@
 .contact .social ul li a { padding-right: 20px; }
 .slidebar-share ul li a { padding: 0 5px; }
 .navbar-default .navbar-brand {
- font-size: 13px;
- padding: 16px 0;
+ font-size: 17px;
+ padding: 20px 0;
 }
 
 
@@ -105,8 +105,9 @@
 .author-details .author-avtar { display: block; }
 .author-details .author-name { padding-left: 0px; }
 .navbar-default .navbar-brand {
- font-size: 11px;
+ font-size: 12px;
  line-height: 18px;
+ padding: 20px 0;
 }
 
 .footer .left p {

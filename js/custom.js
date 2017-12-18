@@ -49,9 +49,17 @@
        smartSpeed:800,
        dots:true,
        nav:false
-      }); 
+      });
+      $('.owl-carousel-1').fadeIn();
+
+      $('.more').on('click', function(){
+          $('.service-block-wrapper').show();
+          $(this).hide();
+          return false;
+      });
+
   });
-    $('.owl-carousel-1').fadeIn();
+
 
 /*************************
         Menu scroll
@@ -249,7 +257,7 @@ $('.popup-portfolio').magnificPopup({
 });
 
 $('.hrefpop').magnificPopup({
-   
+
     type: 'image',
     tLoading: 'Loading image #%curr%...',
     mainClass: 'mfp-img-mobile',
