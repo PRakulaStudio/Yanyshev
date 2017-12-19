@@ -43,15 +43,15 @@ a, button, input { outline: medium none !important; -webkit-transition: all 0.5s
 a:focus, a:hover { outline: medium none !important; text-decoration: none; -webkit-transition: all 0.5s ease-out 0s; -moz-transition: all 0.5s ease-out 0s; -ms-transition: all 0.5s ease-out 0s; -o-transition: all 0.5s ease-out 0s;
   transition: all 0.5s ease-out 0s;  }
 ol, ul { padding: 0px; margin: 0px; }
-li { list-style: none !important; }
+li { list-style: none; }
 p { font-size: 14px; color: #9ea8b6; line-height: 24px; }
-img {     max-width: 100%; object-fit: contain; }
+img {     max-width: 100%; object-fit: cover; }
 /*selection*/
 *::-moz-selection { background: #000; color: #ffffff; text-shadow: none; }
 ::-moz-selection { background: #000; color: #ffffff; text-shadow: none; }
 ::selection { background: #000; color: #ffffff; text-shadow: none; }
 h1, h2, h3, h4, h5, h6 { color: #282828; }
-h1 { font-size: 50px; }
+h1 { font-size: 35px; }
 h2 { font-size: 30px; }
 h3 { font-size: 24px; }
 h4 { font-size: 18px; }
@@ -147,6 +147,7 @@ button.button-small:hover { background: #bea042; }
     -moz-box-sizing: border-box;
     box-sizing: border-box;
 }
+
 .page-section-pt .content .left {
     float: left;
     width: 33.3%;
@@ -254,7 +255,7 @@ button.button-small:hover { background: #bea042; }
 
 .navbar-nav li > ul.dropdown-menu {
     max-height: 445px;
-    overflow-y:scroll;
+    overflow-y:auto;
 }
 
 li.dropdown:hover > ul.dropdown-menu{
@@ -282,8 +283,8 @@ li.dropdown:hover > ul.dropdown-menu{
     display:none;
 }
 .intro-content { display: table-cell; height: 100%; vertical-align: middle; } 
-.intro-content h1 { font-size: 72px; color: #ffffff; font-weight: bold; text-transform: uppercase; font-weight: 700; font-family: 'Raleway', sans-serif; }
-.intro-content h1 span { font-size: 30px; display: block; font-family: 'Raleway', sans-serif; font-weight: 600; }
+.intro-content .header-content { font-size: 72px; color: #ffffff; font-weight: bold; text-transform: uppercase; font-weight: 700; font-family: 'Raleway', sans-serif; }
+.intro-content .header-content span { font-size: 30px; display: block; font-family: 'Raleway', sans-serif; font-weight: 600; }
 #typer { height: 40px; }
 #typer h2 { font-size: 28px; color: #ffffff; font-weight: 600; text-transform: uppercase; font-family: 'Raleway', sans-serif; }
 /*scroll-down*/
@@ -353,14 +354,14 @@ margin-left: -17px; line-height: 50px; }
 /*************************
           service
 *************************/
-.service-block { position: relative; overflow: hidden; margin-right: 30px;    min-height: 370px;
-    max-height: 370px;}
+.service-block { position: relative; overflow: hidden; margin-right: 30px;    min-height: 435px;
+    max-height: 435px;}
 .service-block span { font-size: 50px; color: #a1aab6; display: block; margin-bottom: 30px; }
 .service-block h2 { font-weight: 500; margin-bottom: 30px }
-.service-block p { margin-bottom: 60px; overflow: hidden; max-height: 164px;  color: #282828;}
-.service-block .contact-button { height: 5px; position: absolute; bottom: 0; left: 0px; right: 0px; background: #bea042; transition: all 0.3s ease-in-out;   -webkit-transition: all 0.3s ease-in-out; -o-transition: all 0.3s ease-in-out; -moz-transition: all 0.3s ease-in-out; -ms-transition: all 0.3s ease-in-out; }
+.service-block p { margin-bottom: 60px; overflow: hidden;   color: #282828;}
+.service-block .contact-button { height: 40px; position: absolute; bottom: 0; left: 0px; right: 0px; background: #bea042; transition: all 0.3s ease-in-out;   -webkit-transition: all 0.3s ease-in-out; -o-transition: all 0.3s ease-in-out; -moz-transition: all 0.3s ease-in-out; -ms-transition: all 0.3s ease-in-out; }
 .service-block .contact-button:hover { background: #282828  ; }
-.service-block .contact-button a span { font-size: 16px; display: inline-block; margin-bottom: 0px; color: #fff; line-height: 100px; padding: 0px 20px; transition: all 0.9s ease-in-out;   -webkit-transition: all 0.9s ease-in-out; -o-transition: all 0.9s ease-in-out; -moz-transition: all 0.9s ease-in-out; -ms-transition: all 0.9s ease-in-out; }
+.service-block .contact-button a span { font-size: 16px; display: inline-block; margin-bottom: 0px; color: #fff; line-height: 40px; padding: 0px 20px; transition: all 0.9s ease-in-out;   -webkit-transition: all 0.9s ease-in-out; -o-transition: all 0.9s ease-in-out; -moz-transition: all 0.9s ease-in-out; -ms-transition: all 0.9s ease-in-out; }
 .service-block:hover .contact-button { height: 40px; }
 .service-block:hover .contact-button a span { line-height: 40px; }
 
@@ -746,3 +747,8 @@ textarea:focus { background: transparent; box-shadow: 0 0 17px 0 #ebebeb; outlin
  .error .button a { padding: 10px 20px; background: rgba(255, 255, 255, 0.3); text-transform: capitalize; border-radius: 3px; color: #fff; margin-top: 30px; display: inline-block; }
  .error .button a span { padding-right: 10px; display: inline-block; }
  .error .button a:hover { color: #282828  ; }
+
+
+ .responsive-phone {
+     font-size: 36px;
+ }
