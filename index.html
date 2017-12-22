@@ -3,11 +3,10 @@
 <head>
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
-<meta name="keywords" content="HTML5 Template" />
-<meta name="description" content="Sam Martin - Personal Vcard Resume HTML Template" />
-<meta name="author" content="potenzaglobalsolutions.com" />
+<meta name="keywords" content="Адвокат" />
+<meta name="description" content="Адвокат ЯНЫШЕВ Константин Валентинович" />
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
-<title>Sam Martin - Personal Vcard Resume HTML Template </title>
+<title>Адвокат ЯНЫШЕВ Константин Валентинович</title>
 
 <!-- Favicon -->
 <link rel="shortcut icon" href="images/favicon.ico" />
@@ -30,36 +29,23 @@
 
 <!-- jquery-ui -->
 <link rel='stylesheet' href='css/jquery-ui.css'>
- 
+
+
+<!--  owl carousel -->
+<link rel='stylesheet' href='css/owl.carousel.css'>
 <!-- main style -->
 <link href="css/style.css" rel="stylesheet" type="text/css" />
 
 <!-- responsive -->
 <link href="css/responsive.css" rel="stylesheet" type="text/css" />
 
-<!-- Style customizer -->
-<link href="index.html#" data-style="styles" rel="stylesheet">
-<link href="css/style-customizer.css" rel="stylesheet" type="text/css" />
+
 
 </head>
 
 <body>
 
-<!--=================================
-  loading -->
- <div id="loading">
-  <div id="loading-center">
-    <div id="loading-center-absolute">
-      <div class="object" id="object_one"></div>
-      <div class="object" id="object_two"></div>
-      <div class="object" id="object_three"></div>
-      <div class="object" id="object_four"></div>
-  </div>
- </div>
-</div>
 
-<!--=================================
-  loading -->
 
 
 <!--=================================
@@ -74,30 +60,72 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
- 	    <a class="navbar-brand" href="index.html"> <img id="logo_img" src="images/logo.png" alt=""> </a>
+ 	    <a class="navbar-brand" href="index.html">АДВОКАТ <span>ЯНЫШЕВ</span><span>Константин Валентинович</span></a>
 	  </div>
 	  <div class="collapse navbar-collapse navbar-ex1-collapse">
-	    <ul id="navbar" class="nav navbar-nav navbar-right">
-	      <li class="active"><a href="index.html#home" class="page-scroll">Home</a></li>
-	      <li><a href="index.html#about" class="page-scroll">About</a></li>
-	       <li><a href="index.html#service" class="page-scroll">Service</a></li>
-	       <li><a href="index.html#resume" class="page-scroll">Resume</a></li>
-	       <li><a href="index.html#skill" class="page-scroll">Skill</a></li>
-	       <li><a href="index.html#portfolio" class="page-scroll">Portfolio</a></li>
-	       <li><a href="index.html#availability-calendar" class="page-scroll">Calendar</a></li>
-	       <li><a href="index.html#blog" class="page-scroll">Blog</a></li>
-	       <li><a href="index.html#testimonials" class="page-scroll">Testimonials</a></li>
-	       <li class="dropdown">
-            <a href="index.html#" data-toggle="dropdown" class="dropdown-toggle">pages </a>
-            <ul class="dropdown-menu">
-                <li><a href="blog.html">Blog </a></li>
-                <li><a href="blog-single.html">Blog single</a></li>
-                <li><a href="portfolio-single.html">Portfolio single</a></li>
-                <li><a href="error-404.html">Error 404</a></li>
-            </ul>
-        </li>
-	       <li><a href="index.html#contact" class="page-scroll">contact</a></li>
-	    </ul>
+          <ul id="navbar" class="nav navbar-nav navbar-right" data-global-container="menu">
+              <li class="active"><a href="index.html">Главная</a></li>
+              <li class="dropdown">
+                  <a href="#" data-toggle="dropdown" class="dropdown-toggle">Биография</a>
+                  <ul class="dropdown-menu">
+                      <li><a href="/about/obrazovanie_i_opyit_rabotyi">Образование и опыт работы</a></li>
+                      <li><a href="/about/nagradyi_i_pooschreniya">Награды и поощрения</a></li>
+                      <li><a href="/about/sverdlovskaya_oblastnaya_gildiya_advokatov">Свердловская областная гильдия
+                          адвокатов</a></li>
+                      <li><a href="/about/advokatskaya_palata_sverdlovskoy_oblasti">Адвокатская палата Свердловской
+                          области</a></li>
+                  </ul>
+              </li>
+              <li class="dropdown">
+                  <a href="#" data-toggle="dropdown" class="dropdown-hover">Услуги</a>
+                  <ul class="dropdown-menu">
+                      <li><a href="/uslugi/advokat_po_narkotikam">Адвокат по наркотикам</a></li>
+                      <li><a href="/uslugi/advokat_po_ubiystvu">Адвокат по убийству</a></li>
+                      <li><a href="/uslugi/advokat_po_ekonomicheskim_prestupleniyam">Адвокат по экономическим
+                          преступлениям</a></li>
+                      <li><a href="/uslugi/prichinenie_vreda_zdorovyu">Причинение вреда здоровью</a></li>
+                      <li><a href="/uslugi/advokat_dlya_biznesa">Адвокат для бизнеса</a></li>
+                      <li><a href="/uslugi/advokat_po_doljnostnyim_prestupleniyam">Адвокат по должностным
+                          преступлениям</a></li>
+                      <li><a href="/uslugi/advokat_po_kraje">Адвокат по краже</a></li>
+                      <li><a href="/uslugi/advokat_po_160_state_uk_rf">Адвокат по присвоению и растрате</a></li>
+                      <li><a href="/uslugi/advokat_po_razboyam">Адвокат по разбоям</a></li>
+                      <li><a href="/uslugi/advokat_po_moshennichestvu">Адвокат по мошенничеству</a></li>
+                      <li><a href="/uslugi/advokat_po_grabejam">Адвокат по грабежам</a></li>
+                      <li><a href="/uslugi/advokat_po_vyimogatelstvam">Адвокат по вымогательствам</a></li>
+                      <li><a href="/uslugi/advokat_po_vzyatkam">Адвокат по взяткам</a></li>
+                      <li><a href="/uslugi/ugolovnyiy_advokat_po_dtp">Уголовный адвокат по ДТП</a></li>
+                      <li><a href="/uslugi/advokat_po_ugonu_avtomobiley">Адвокат по угону автомобилей</a></li>
+                      <li><a href="/uslugi/advokat_po_st_213_uk_rf">Адвокат по хулиганству</a></li>
+                      <li><a href="/uslugi/nalogovyiy_advokat">Налоговый адвокат</a></li>
+                      <li><a href="/uslugi/tamojennyiy_advokat">Таможенный адвокат</a></li>
+                      <li><a href="/uslugi/advokat_doznanie">Адвокат на следствии и дознании</a></li>
+                      <li><a href="/uslugi/advokat_svidetelya">Адвокат свидетеля</a></li>
+                      <li><a href="/uslugi/advokat_po_udo">Адвокат по УДО</a></li>
+                      <li><a href="/uslugi/ugolovnaya_apellyatsiya">Уголовная апелляция</a></li>
+                      <li><a href="/uslugi/ugolovnaya_kassatsiya">Уголовная кассация</a></li>
+                      <li><a href="/uslugi/peresmotr_ugolovnogo_dela">Пересмотр уголовного дела</a></li>
+                      <li><a href="/uslugi/advokat_predstavitel_v_ugolovnom_protsesse">Адвокат-представитель в уголовном
+                          процессе</a></li>
+                      <li><a href="/uslugi/advoka_po_samoupravstvu">Адвокат по самоуправству</a></li>
+                  </ul>
+              </li>
+              <li class="dropdown"><a href="/stoimost_uslug" data-toggle="dropdown" class="dropdown-toggle">Стоимость услуг</a></li>
+              <li class="dropdown">
+                  <a href="#" data-toggle="dropdown" class="dropdown-toggle">Полезная информация</a>
+                  <ul class="dropdown-menu">
+                      <li><a href="/poleznaya_informatsiya/kak_vyibrat_advokata_po_ugolovnyim_delam">Как выбрать
+                          адвоката по уголовным делам</a></li>
+                      <li><a href="/poleznaya_informatsiya/chto_delat_esli_zaderjala_politsiya">Что делать, если
+                          задержала полиция</a></li>
+                      <li><a href="/poleznaya_informatsiya/trebuetsya_advokat">Требуется адвокат?</a></li>
+                      <li><a href="/poleznaya_informatsiya/objalovanie_prigovora_po_ugolovnomu_delu">Обжалование
+                          приговора по уголовному делу</a></li>
+                  </ul>
+              </li>
+              <li><a href="/inyie_voprosyi">Иные вопросы</a></li>
+              <li><a href="/kontaktyi">Контакты</a></li>
+          </ul>
    </div> 
 </nav>
 </header>
@@ -109,17 +137,32 @@
 <!--=================================
   intro --> 
  
-  <div class="intro-bg" style="background: url('images/bg.jpg');">
+  <div class="intro-bg" >
+      <div class="owl-carousel-1" style="display:none;" data-container="main_slider_blocks">
+          <div class="item">
+              <img class="horiz" src="images/slider/horiz/1.png" alt="">
+              <img class="vertical" src="images/slider/vertical/1.jpeg" alt="">
+          </div>
+          <div class="item">
+              <img class="horiz" src="images/slider/horiz/2.png" alt="">
+              <img class="vertical" src="images/slider/vertical/2.JPG" alt="">
+          </div>
+          <div class="item">
+              <img class="horiz" src="images/slider/horiz/3.png" alt="">
+              <img class="vertical" src="images/slider/vertical/3.jpg" alt="">
+          </div>
+      </div>
    <div id="scroll-down" class="intro">
     <div class="intro-content">
       <div class="container-fluid">
       <div class="row">
        <div class="col-md-12 text-center">
-         <h1> <span> Hello i’m </span> Sam Martin </h1>
-         <div id="typer"></div>
-          <div class="button-large">
-          	<a href="index.html#">Download my CV</a>
-          </div>
+         <div class="header-content"> <span>Адвокат</span> ЯНЫШЕВ </div>
+         <div id="typer"><h2>Константин Валентинович </h2></div>
+           <div class="button-large">
+               <a class="phone-button" data-phone="+7 (912) 631-20-28" href="tel:+7 (912) 631-20-28">Позвонить мне</a>
+           </div>
+
         </div>
        </div>
      </div>
@@ -140,109 +183,109 @@
    <div class="row">
    	 <div class="col-lg-4 col-md-4 col-sm-4">
    	   <div class="about-image">
-   	   	 <img class="img-responsive" src="images/me.jpg" alt="">
+   	   	 <img class="img-responsive" src="images/Yanyshev.jpg" alt="">
    	   </div>	
    	   <div class="about-social">
    	   	 <ul>
-   	   	  <li><a href="index.html#"><i class="fa fa-facebook"></i></a></li>
-          <li><a href="index.html#"><i class="fa fa-twitter"></i></a></li>
-          <li><a href="index.html#"><i class="fa fa-dribbble"></i> </a></li>
-          <li><a href="index.html#"><i class="fa fa-vimeo"></i> </a></li>
-          <li><a href="index.html#"><i class="fa fa-pinterest-p"></i> </a></li>
-          <li><a href="index.html#"><i class="fa fa-behance"></i> </a></li>
-          <li><a href="index.html#"><i class="fa fa-linkedin"></i> </a></li>
+   	   	  <li><a href="index.html#"><i class="fa fa-facebook"></i><span>Написать мне</span></a></li>
+
+
    	   	 </ul>
    	   </div>
    	 </div>
    	 <div class="col-lg-8 col-md-8 col-sm-8"> 
    	 	<div class="section-title">
    	 	  <div class="section-title-name">
-   	 	  	<span>Know about me</span>
-   	 	  	<h2>About Me</h2>
+
+   	 	  	<h2>Обо мне</h2>
    	 	  </div>	
    	 	  <div class="title-name-gray">
-   	 	  	<strong>About me</strong>
+   	 	  	<strong>Обо мне</strong>
    	 	  </div>
    	 	</div>
    	 	<div class="contact-block"> 
    	 	 <div class="row">  
-   	 	 	<div class="col-lg-4 col-md-4 col-sm-4">
+   	 	 	<div class="col-lg-6 col-md-6 col-sm-6">
    	 	 		<div class="my-contact clearfix">
    	 	 			<div class="contact-icon">
    	 	 				<span class="ti-user"></span>
    	 	 			</div>
    	 	 			<div class="contact-info">
-   	 	 				<h4>Name:</h4>
-   	 	 				<p>Sam Martin</p>
+   	 	 				<h4>ФИО:</h4>
+   	 	 				<p>Янышев Константин Валентинович</p>
    	 	 			</div>
    	 	 		</div>
    	 	 	</div>
-   	 	 	<div class="col-lg-4 col-md-4 col-sm-4">
+   	 	 	<div class="col-lg-6 col-md-6 col-sm-6">
    	 	 		<div class="my-contact clearfix">
    	 	 			<div class="contact-icon">
    	 	 				<span class="ti-email"></span>
    	 	 			</div>
    	 	 			<div class="contact-info">
    	 	 				<h4>Email:</h4>
-   	 	 				<p>sam@website.com</p>
+   	 	 				<p><a href="mailto:yanyshev.constantin@yandex.ru">yanyshev.constantin@yandex.ru</a></p>
    	 	 			</div>
    	 	 		</div>
    	 	 	</div>
-   	 	 	<div class="col-lg-4 col-md-4 col-sm-4">
+
+   	 	 	<div class="col-lg-6 col-md-6 col-sm-7">
    	 	 		<div class="my-contact clearfix">
    	 	 			<div class="contact-icon">
    	 	 				<span class="ti-mobile"></span>
    	 	 			</div>
    	 	 			<div class="contact-info">
-   	 	 				<h4>Phone:</h4>
-   	 	 				<p>(123)-456-7890</p>
+   	 	 				<h4>Телефон:</h4>
+                        <p style="color: #FF0000; font-weight: 800;">+7 (912) 631-20-28</p>
    	 	 			</div>
    	 	 		</div>
    	 	 	</div>
+             <div class="col-lg-6 col-md-6 col-sm-5">
+                 <div class="my-contact clearfix">
+                     <div class="contact-icon">
+                         <span class="ti-direction-alt"></span>
+                     </div>
+                     <div class="contact-info">
+                         <h4>Адрес: </h4>
+                         <p>г. Екатеринбург, ул. Луначарского, 81, офис 308</p>
+                     </div>
+                 </div>
+             </div>
    	 	 </div>
-   	 	 <div class="row">  
-   	 	 	<div class="col-lg-4 col-md-4 col-sm-4">
-   	 	 		<div class="my-contact clearfix">
-   	 	 			<div class="contact-icon">
-   	 	 				<span class="ti-calendar"></span>
-   	 	 			</div>
-   	 	 			<div class="contact-info">
-   	 	 				<h4>Date of birth: </h4>
-   	 	 				<p>25 September 1990</p>
-   	 	 			</div>
-   	 	 		</div>
-   	 	 	</div>
-   	 	 	<div class="col-lg-4 col-md-4 col-sm-4">
-   	 	 		<div class="my-contact clearfix">
-   	 	 			<div class="contact-icon">
-   	 	 				<span class="ti-direction-alt"></span>
-   	 	 			</div>
-   	 	 			<div class="contact-info">
-   	 	 				<h4>Address: </h4>
-   	 	 				<p>24 SL Road, London. UK</p>
-   	 	 			</div>
-   	 	 		</div>
-   	 	 	</div>
-   	 	 	<div class="col-lg-4 col-md-4 col-sm-4">
-   	 	 		<div class="my-contact clearfix">
-   	 	 			<div class="contact-icon">
-   	 	 			 <span class="ti-flag-alt-2"></span>
-   	 	 			</div>
-   	 	 			<div class="contact-info">
-   	 	 				<h4>Nationality: </h4>
-   	 	 				<p>United Kingdom</p>
-   	 	 			</div>
-   	 	 		</div>
-   	 	 	</div>
-   	 	 </div>	
+
    	 	 <div class="row">
    	 	 	<div class="col-lg-12 col-md-12">
-   	 	 	  <div class="about-block clearfix">
-   	 	 		<p>My name is Sam Martin Lorem ipsum dolor sit amet, consectetur adipisicing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-          <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.</p>
-   	 	 		<img class="pull-right" src="images/signature.png" alt="">
-   	 	 	</div>
-   	 	   </div>
+   	 	 	  <div class="about-block clearfix" data-container="about_block">
+
+                  <p>Окончил Уральскую Государственную Юридическую Академию (УрГЮА – ныне УрГЮУ) в 1999 г. Еще
+                      будучи студентом, начал трудовую деятельность в органах прокуратуры.
+                  </p>
+                  <p>Большой опыт работы в органах прокуратуры:</p>
+                  <ul>
+                      <li> - следователь прокуратуры Орджоникидзевского района г. Екатеринбурга;</li>
+                      <li> - старший следователь отдела по расследованию особо важных дел прокуратуры Свердловской
+                          области;
+                      </li>
+                      <li> - прокурор отдела по надзору за исполнением законов органами внутренних дел и юстиции
+                          прокуратуры Свердловской области;
+                      </li>
+                      <li> - заместитель прокурора Орджоникидзевского района г. Екатеринбурга.</li>
+                  </ul>
+                  <p>Состоит в Свердловской областной гильдии адвокатов. Зарегистрирован в реестре адвокатов
+                      Свердловской области.
+                  </p>
+                  <p>Юридический стаж 19 лет, непосредственно адвокатской деятельностью занимается с 2005 года.
+                  </p>
+                  <p>Специализация: осуществление защиты по уголовным делам любой сложности.</p>
+                  <p>Территориальность:</p>
+                  <ul>
+                      <li> - в силу закона, адвокат может осуществлять свою деятельность на всей территории Российской
+                          Федерации. Приоритетно - Екатеринбург и Свердловская область.
+                      </li>
+                      <li> - Возможность выезда в командировки в иные субъекты РФ и за рубеж.</li>
+                  </ul>
+
+              </div>
+            </div>
    	 	 </div>
    	 	</div>
    	 </div>
@@ -263,918 +306,254 @@
 	<div class="col-lg-12 col-md-12">
 	 <div class="section-title">
    	 	 <div class="section-title-name">
-   	 	  	<span>What i can do better</span>
-   	  	  	<h2>Services</h2>
+
+   	  	  	<h2>Услуги</h2>
    	    </div>	
    	    <div class="title-name-gray">
-   	   	<strong>Services</strong>
+   	   	<strong>Услуги</strong>
    	   </div>
    	 </div>
 	</div>
    </div>	
-   <div class="row">
-    <div class="col-lg-3 col-md-6 col-sm-6">
-     <div class="service-block">
-      <span class="ti-desktop"></span>
-      <h2>Child support</h2>
-      <p>You will begin to realise why this exercise is called the Dickens Pattern (with reference to the ghost showing Scrooge some different futures) as you notice that the idea of this exercise is to hypnotize yourself to be aware of two....</p>
-      <div class="contact-button">
-        <a class="clearfix" href="index.html#"> <span class="pull-left">Read More...</span> <span class="ti-arrow-circle-right pull-right"></span></a>
+   <div class="row" data-container="service_blocks">
+       <div class="service-block-wrapper">
+           <div class="col-lg-3 col-md-6 col-sm-6">
+               <div class="service-block">
+                   <h2>Адвокат по мошенничеству</h2>
+                   <p>В России возбуждается огромное количество дел по 159 статье УК РФ «Мошенничество», определяемое как хищение чужого имущества или приобретения права на него путем обмана или злоупотребления доверием, совершенное одним или несколькими лицами.
+                   </p>
+                   <div class="contact-button">
+                       <a class="clearfix" href="index.html#"> <span class="pull-left">Подробнее...</span> <span
+                               class="ti-arrow-circle-right pull-right"></span></a>
+                   </div>
+               </div>
+           </div>
+           <div class="col-lg-3 col-md-6 col-sm-6">
+               <div class="service-block">
+                   <h2>Адвокат по должностным преступлениям</h2>
+                   <p>Судебные разбирательства по <strong>должностным преступлениям</strong> редко заканчиваются в пользу обвиняемого по одной причине: потерпевшим оказывается не только частное лицо, которому навредило то или иное действие, но и государство.</p>
+                   <div class="contact-button">
+                       <a class="clearfix" href="index.html#"> <span class="pull-left">Подробнее...</span> <span
+                               class="ti-arrow-circle-right pull-right"></span></a>
+                   </div>
+               </div>
+           </div>
+           <div class="col-lg-3 col-md-6 col-sm-6">
+               <div class="service-block">
+                   <h2>Адвокат по экономическим преступлениям</h2>
+                   <p>Помощь профессионального <strong>адвоката по экономическим преступлениям</strong> требуется при уголовном преследовании в сфере хозяйственной деятельности, причиной которого может послужить уклонение от уплаты налогов, мошенничество, растрата чужого имущества, а также ряд других.</p>
+                   <div class="contact-button">
+                       <a class="clearfix" href="index.html#"> <span class="pull-left">Подробнее...</span> <span
+                               class="ti-arrow-circle-right pull-right"></span></a>
+                   </div>
+               </div>
+           </div>
+           <div class="col-lg-3 col-md-6 col-sm-6">
+               <div class="service-block">
+
+                   <h2>Адвокат по наркотикам</h2>
+                   <p><strong>Статья 228 УК РФ</strong> – одна из немногих, меры ответственности по которой ежегодно
+                       ужесточаются. Незаконный оборот наркотиков – преступление, несущее социальную угрозу. Оказать
+                       квалифицированную помощь вам сможет профессиональный <strong>уголовный адвокат по наркотикам в
+                           Екатеринбурге</strong>.</p>
+                   <div class="contact-button">
+                       <a class="clearfix" href="index.html#"> <span class="pull-left">Подробнее...</span> <span
+                               class="ti-arrow-circle-right pull-right"></span></a>
+                   </div>
+               </div>
+           </div>
+           <div class="col-lg-12 col-md-12 col-sm-12">
+               <div class="button-large more">
+                   <a href="#">Показать еще</a>
+               </div>
+           </div>
+
        </div>
-     </div>
-    </div>
-    <div class="col-lg-3 col-md-6 col-sm-6">
-     <div class="service-block">
-      <span class="ti-slice"></span>
-      <h2>Apousal support</h2>
-      <p>Two distinct pathways that you could take for your life this very day. Have a think about something that you do that you are maybe not motivated to change about yourself. Prior to running through this technique, just have a think about... </p>
-      <div class="contact-button">
-        <a class="clearfix" href="index.html#"> <span class="pull-left">Read More...</span> <span class="ti-arrow-circle-right pull-right"></span></a>
-       </div>
-     </div>
-    </div>  
-    <div class="col-lg-3 col-md-6 col-sm-6">
-     <div class="service-block">
-      <span class="ti-brush-alt"></span>
-      <h2>Asset Division</h2>
-      <p>Then with that thing in mind, follow these simple steps. Step One: Get yourself nice and relaxed and settled. Concentrate on your breathing, engage in the moment and spend some time being still, quiet and drift inside of your own mind... </p>
-      <div class="contact-button">
-        <a class="clearfix" href="index.html#"> <span class="pull-left">Read More...</span> <span class="ti-arrow-circle-right pull-right"></span></a>
-       </div>
-     </div>
-    </div>
-    <div class="col-lg-3 col-md-6 col-sm-6">
-     <div class="service-block">
-      <span class="ti-layout-media-center"></span>
-      <h2>Common Law</h2>
-      <p>Become aware of the temperature, the sights, the sounds and enjoy walking along the path of your life. Make it sensory rich and get comfortable with the idea. Imagine the feeling of your feet walking along the path and the sound.... </p>
-      <div class="contact-button">
-        <a class="clearfix" href="index.html#"> <span class="pull-left">Read More...</span> <span class="ti-arrow-circle-right pull-right"></span></a>
-       </div>
-     </div>
-    </div>
+        <div class="service-block-wrapper" style="display:none">
+           <div class="col-lg-3 col-md-6 col-sm-6">
+               <div class="service-block">
+                   <h2>Налоговый адвокат</h2>
+                  <p><strong>Адвокат по налоговым спорам</strong> - это профессиональный советник, который помогает предприятиям и гражданам при уплате налогов. Нарушение предписаний налоговых органов или регулярная несвоевременная уплата налогов в крупной сумме может повлечь за собой весьма серьезные последствия в виде денежного штрафа с возбуждением уголовного дела как в отношении физических лиц, так и в отношении предпринимателей.</p>
+                   <div class="contact-button">
+                       <a class="clearfix" href="index.html#"> <span class="pull-left">Подробнее...</span> <span class="ti-arrow-circle-right pull-right"></span></a>
+                   </div>
+               </div>
+           </div>
+           <div class="col-lg-3 col-md-6 col-sm-6">
+               <div class="service-block">
+                   <h2>Апелляция</h2>
+                   <p>Решение суда далеко не всегда базируется на законности и обоснованности. Именно поэтому, чтобы обеспечить соблюдение интересов всех сторон, была предусмотрена такая процедура как <strong>апелляция по уголовному делу</strong>, что дает возможность обжаловать приговор на первое решение суда.</p>
+                   <div class="contact-button">
+                       <a class="clearfix" href="index.html#"> <span class="pull-left">Подробнее...</span> <span class="ti-arrow-circle-right pull-right"></span></a>
+                   </div>
+               </div>
+           </div>
+           <div class="col-lg-3 col-md-6 col-sm-6">
+               <div class="service-block">
+
+                   <h2>Кассация</h2>
+                   <p>Процедурой обжалования приговора, который уже обрел силу и был направлен исполнителям, называется <strong>уголовная кассация</strong>. К ней прибегают только в том случае, если при рассмотрении дела судом были серьезно нарушены нормы закона, при апелляции судебного акта такие нарушения остались без внимания либо не принесли ожидаемого результата.</p>
+                   <div class="contact-button">
+                       <a class="clearfix" href="index.html#"> <span class="pull-left">Подробнее...</span> <span class="ti-arrow-circle-right pull-right"></span></a>
+                   </div>
+               </div>
+           </div>
+           <div class="col-lg-3 col-md-6 col-sm-6">
+               <div class="service-block">
+
+                   <h2>Адвокат по УДО</h2>
+                   <p>Уголовный закон (ст. 79 УК РФ) допускает возможность условно-досрочно прекратить исполнение назначенного судом наказания, причем получить освобождение (далее - УДО) можно в период нахождения в колонии или тюрьме. Однако для этого необходимо собрать множество бумаг и пройти сложную процедуру, помочь реализовать которую может <strong>адвокат по УДО.</strong></p>
+                   <div class="contact-button">
+                       <a class="clearfix" href="index.html#"> <span class="pull-left">Подробнее...</span> <span class="ti-arrow-circle-right pull-right"></span></a>
+                   </div>
+               </div>
+           </div>
+        </div>
+
+
+
+
+
    </div>	
  </div>
 </section>
 
 <!--=================================
-  services --> 
+  services -->
 
-
-<!--=================================
-  Resume --> 
-
-<section id="resume" class="resume white-bg page-section">
- <div class="container-fluid">
-   <div class="row">
-  <div class="col-lg-12 col-md-12">
-   <div class="section-title">
-       <div class="section-title-name">
-          <span>My Work Experience</span>
-            <h2>Resume</h2>
-        </div>  
-        <div class="title-name-gray">
-        <strong>Resume</strong>
-       </div>
-     </div>
-  </div>
-   </div> 
-   <div class="row">
-  <div class="col-lg-12 col-md-12">
-    <h2>Experience : </h2>
-    </div>
-   </div>
- <div class="resume-block">
-   <div class="row">
-  <div class="col-lg-4 col-md-4 col-sm-4">
-      <div class="resume-icon">
-      <span class="ti-ruler-pencil"></span>     
-      </div>
-      <div class="resume-name">
-        <h3>United Bar Association </h3>
-        <span>2013 to present</span>
-      </div>
-    </div> 
-    <div class="col-lg-8 col-md-8 col-sm-8">
-      <div class="resume-info"> 
-        <h3>Board of Director</h3>
-        <p>Quis nostrud exercitation ullamco laboris nisi ut aliquip exea. commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.  </p>
-      </div>
-    </div>
-    </div>
-   </div>
-   <div class="resume-block">
-   <div class="row">
-  <div class="col-lg-4 col-md-4 col-sm-4">
-      <div class="resume-icon">
-      <span class="ti-bookmark-alt"></span>   
-      </div>
-      <div class="resume-name">
-        <h3>Atlanta office of Arthur </h3>
-        <span>2010 to 2013</span>
-      </div>
-    </div> 
-    <div class="col-lg-8 col-md-8 col-sm-8">
-      <div class="resume-info"> 
-        <h3>Senior tax accountant</h3>
-        <p>Ut enim ad minim niam, quis nostrud exercitation ullamco laboris nisi ut aliquip exea. commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </p>
-      </div>
-    </div>
-    </div>
-   </div>
-   <div class="resume-block">
-   <div class="row">
-  <div class="col-lg-4 col-md-4 col-sm-4">
-      <div class="resume-icon">
-      <span class="ti-calendar"></span>   
-      </div>
-      <div class="resume-name">
-        <h3>The trust department</h3>
-        <span>2009 to 2010</span>
-      </div>
-    </div> 
-    <div class="col-lg-8 col-md-8 col-sm-8">
-      <div class="resume-info"> 
-        <h3>Tax accountant</h3>
-        <p>Commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Ut enim ad minim niam, quis nostrud exercitation ullamco laboris nisi ut aliquip exea. </p>
-      </div>
-    </div>
-    </div>
-   </div>
-   <div class="row">
-  <div class="col-lg-12 col-md-12">
-    <h2>Education : </h2>
-    </div>
-   </div>
- <div class="resume-block">
-   <div class="row">
-  <div class="col-lg-4 col-md-4 col-sm-4">
-      <div class="resume-icon">
-      <span class="ti-crown"></span>      
-      </div>
-      <div class="resume-name">
-        <h3>College of William and Mary</h3>
-        <span>2008 to 2009</span>
-      </div>
-    </div> 
-    <div class="col-lg-8 col-md-8 col-sm-8">
-      <div class="resume-info"> 
-        <h3>Undergraduate and law degrees</h3>
-        <p>Sunt in culpa qui officia deserunt mollit anim id est laborum. Ut enim ad minim niam, quis nostrud exercitation ullamco laboris nisi ut aliquip exea. commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, </p>
-      </div>
-    </div>
-    </div>
-   </div>
-   <div class="resume-block clearfix">
-   <div class="row">
-  <div class="col-lg-4 col-md-4 col-sm-4">
-      <div class="resume-icon">
-      <span class="ti-thumb-up"></span>   
-      </div>
-      <div class="resume-name">
-        <h3>Law School, Manchester</h3>
-        <span>2007 to 2009</span>
-      </div>
-    </div> 
-    <div class="col-lg-8 col-md-8 col-sm-8">
-      <div class="resume-info"> 
-        <h3>Master of Laws degree </h3>
-        <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Ut enim ad minim niam, quis nostrud exercitation ullamco laboris nisi ut aliquip exea. commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. </p>
-      </div>
-    </div>
-    </div>
-   </div>
- </div>
-</section>
-
-<!--=================================
-  Resume --> 
-
-
-<!--=================================
-  My Skill --> 
 
 <section id="skill" class="my-skill white-bg page-section">
- <div class="container-fluid">
-   <div class="row">
-	<div class="col-lg-12 col-md-12">
-	 <div class="section-title">
-   	 	 <div class="section-title-name">
-   	 	  	<span>I am good at</span>
-   	  	  	<h2>My Skill</h2>
-   	    </div>	
-   	    <div class="title-name-gray">
-   	   	<strong>My Skill</strong>
-   	   </div>
-   	 </div>
-	</div>
-   </div>	
-   <div class="row">
-	<div class="col-lg-6 col-md-6 col-sm-6">
- 	 <div class="skill-content">
- 		<h2>My Professional Strengths</h2>
- 		<span>“Winning isn't everything but making the effort to win is.”</span>
- 		<p>My Professional Strengths Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis velit error culpa unde, esse quam quasi, necessitatibus voluptatem possimus, repellendus. <br /><br />		 
-    The other virtues practice in succession by Franklin were silence, order, resolution, frugality, industry, sincerity, Justice, moderation, cleanliness, tranquility, chastity and humility. For the summary order he followed a little scheme of employing his time each day. From five to seven each morning he spent in bodily personal attention, saying a short prayer, thinking over the day’s business and resolutions, studying and eating breakfast. From eight till twelve he worked at his trade. From twelve to one he read or overlooked his accounts and dined. From two to five he worked at his trade. The rest of the evening until 10 he spent in music, or diversion of some sort. </p>
- 	 </div>
-    </div>
-    <div class="col-lg-6 col-md-6 col-sm-6">
- 	 <div class="skill">
-             <ul>
-               <li>Analytical ability
-                 <div class="bar_container">
-                  <span class="bar" data-bar='{ "color": "#07cb79" }'>
-                    <span class="pct">70%</span>
-                  </span>
-                </div>
-              </li>
-              <li>Research
-               <div class="bar_container">
-                 <span class="bar" data-bar='{ "color": "#07cb79", "delay": "600" }'>
-                   <span class="pct">55%</span>
-                 </span>
-                </div>
-              </li>
-              <li>Perseverance
-                <div class="bar_container">
-                 <span class="bar" data-bar='{ "color": "#07cb79", "delay": "1200" }'>
-                  <span class="pct">80%</span>
-                 </span>
-                </div>
-              </li>
-              <li>Communication skills
-               <div class="bar_container">
-                 <span class="bar" data-bar='{ "color": "#07cb79", "delay": "1800" }'>
-                 <span class="pct">70%</span>
-                </span>
-               </div>
-              </li>
-          </ul>
-          <div class="skill-chart">
-          	<div class="skill-chart-expand clearfix">
-               <div class="expand expand-left">
-                   <p>Newbie</p>
-                </div>
-                <div class="expand expand-left">
-                  <p>Decent</p>
-                 </div>
-                 <div class="expand expand-right">
-                   <p>Pretty Good</p>
-                 </div>
-                 <div class="expand expand-right">
-                   <p>Master</p>
-                 </div>
-               </div>
-          </div>
-         </div>
- 	   </div>
-   </div>
- <div class="language-skills">
-   <div class="row">
-   	 <div class="col-lg-12 col-md-12"> 
-   	 	<h2>Language skills</h2>
-      <p>You will begin to realise why this exercise is called the Dickens Pattern with reference to the ghost showing Scrooge some different futures as you notice that the idea of this exercise is to hypnotize yourself to be aware of two very real possibilities for your future. Two distinct pathways. </p>
-      </div>
-   </div>
-    <div class="row">
-      <div class="col-lg-3 col-md-3 col-sm-3">
-       <div class="chart-bar">  
-          <div class="chart" data-percent="73">
-               <span class="percent"></span>
-           </div>
-             <h3>English <br/> Experienced</h3>
-            </div> 
-       </div> 
-       <div class="col-lg-3 col-md-3 col-sm-3">
-       <div class="chart-bar">  
-          <div class="chart" data-percent="55">
-               <span class="percent"></span>
-           </div>
-             <h3>French <br />Advanced</h3>
-       </div> 
-       </div> 
-       <div class="col-lg-3 col-md-3 col-sm-3">
-       <div class="chart-bar">  
-          <div class="chart" data-percent="89">
-               <span class="percent"></span>
-           </div>
-             <h3>Spanish <br />Basic</h3>
-       </div> 
-       </div> 
-       <div class="col-lg-3 col-md-3 col-sm-3">
-       <div class="chart-bar">  
-          <div class="chart" data-percent="95">
-               <span class="percent"></span>
-           </div>
-             <h3>German <br />Basic</h3>
-       </div> 
-      </div> 
-     </div> 
-   <div class="knowledge">
-   <div class="row">
-   	 <div class="col-lg-12 col-md-12"> 
-   	 	<h2>Knowledge</h2>
-   	 	<p>Auis nostrud exercitation ullamco laboris nisi ut aliquip exea. commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. </p>
-   	 </div>
-  </div>
-  <div class="row">
-    <div class="col-lg-4 col-md-4 col-sm-4">
-        <ul>
-          <li><span class="ti-hand-point-right"></span> Law and Government</li>
-          <li><span class="ti-hand-point-right"></span> Customer and Personal Service</li>
-          <li><span class="ti-hand-point-right"></span> Administration and Management</li>
-          <li><span class="ti-hand-point-right"></span> Computers and Electronics</li>
-        </ul>
-      </div>
-      <div class="col-lg-4 col-md-4 col-sm-4">
-        <ul>
-          <li><span class="ti-hand-point-right"></span> Personnel and Human Resources</li>
-          <li><span class="ti-hand-point-right"></span> Economics and Accounting </li>
-          <li><span class="ti-hand-point-right"></span> Psychology </li>
-          <li><span class="ti-hand-point-right"></span> Sales and Marketing</li>
-        </ul>
-      </div>
-      <div class="col-lg-4 col-md-4 col-sm-4">
-      <ul>
-         <li><span class="ti-hand-point-right"></span> Mathematics</li>
-          <li><span class="ti-hand-point-right"></span> Management of Personnel Resources</li>
-          <li><span class="ti-hand-point-right"></span> Service Orientation</li>
-          <li><span class="ti-hand-point-right"></span> Active Learning</li>
-      </ul>
-    </div>
-  </div>
- </div>	
- </div>
- </div>
-</section>
-
-<!--=================================
-  My Skill --> 
-
-
-<!--=================================
- portfolio --> 
-
-<section id="portfolio" class="portfolio white-bg page-section">
- <div class="container-fluid">
-   <div class="row">
-  <div class="col-lg-12 col-md-12">
-   <div class="section-title">
-       <div class="section-title-name">
-          <span>My Featured Work</span>
-            <h2>My Portfolio</h2>
-        </div>  
-        <div class="title-name-gray">
-        <strong>My Portfolio</strong>
-       </div>
-     </div>
-  </div>
-   </div> 
- <div class="row">
-       <div class="col-lg-12 col-md-12">
-     <div class="isotope-filters text-left">
-          <button data-filter="" class="active"> View All <span>/</span></button> 
-          <button data-filter=".corporate">Corporate <span>/</span></button>
-          <button data-filter=".criminal-defence">Criminal Defence <span>/</span></button>
-          <button data-filter=".justice-fight">Justice Fight </button>
-       </div>
-    </div>
-  </div>  
-  <div class="isotope popup-portfolio full-screen">
-    <div class="grid-item corporate criminal-defence">
-      <div class="portfolio-item">
-     <div class="item">
-      <div class="item-hover">
-          <div class="item-inner">
-        <img class="img-responsive" src="images/portfolio/01.jpg" alt=""></div>
-         <div class="item-info">
-         <a href="index.html#">  work item one</a>
-          <span>by Sam Martin</span>
-          <div class="item-link">
-           <a class="portfolio-img" href="images/portfolio/01.jpg"><span class="ti-plus"></span></a>
-           <a href="portfolio-single.html"><span class="ti-link"></span></a>
-          </div>
-           </div>
-        </div>
-       </div>      
-        </div>
-    </div>
-    <div class="grid-item corporate">
-      <div class="portfolio-item">
-     <div class="item">
-      <div class="item-hover">
-          <div class="item-inner">
-        <img class="img-responsive" src="images/portfolio/02.jpg" alt=""></div>
-         <div class="item-info">
-         <a href="index.html#">  work item one</a>
-          <span>by Sam Martin</span>
-          <div class="item-link">
-           <a class="portfolio-img" href="images/portfolio/02.jpg"><span class="ti-plus"></span></a>
-           <a href="portfolio-single.html"><span class="ti-link"></span></a>
-          </div>
-           </div>
-        </div>
-       </div>      
-        </div>
-    </div>
-     <div class="grid-item justice-fight">
-        <div class="portfolio-item">
-     <div class="item">
-      <div class="item-hover">
-          <div class="item-inner">
-        <img class="img-responsive" src="images/portfolio/03.jpg" alt=""></div>
-         <div class="item-info">
-         <a href="index.html#">  work item one</a>
-          <span>by Sam Martin</span>
-          <div class="item-link">
-           <a class="portfolio-img" href="images/portfolio/03.jpg"><span class="ti-plus"></span></a>
-           <a href="portfolio-single.html"><span class="ti-link"></span></a>
-          </div>
-           </div>
-        </div>
-       </div>      
-        </div>  
-    </div>
-    <div class="grid-item criminal-defence">
-      <div class="portfolio-item">
-     <div class="item">
-      <div class="item-hover">
-          <div class="item-inner">
-        <img class="img-responsive" src="images/portfolio/04.jpg" alt=""></div>
-         <div class="item-info">
-         <a href="index.html#">  work item one</a>
-          <span>by Sam Martin</span>
-          <div class="item-link">
-           <a class="portfolio-img" href="images/portfolio/04.jpg"><span class="ti-plus"></span></a>
-           <a href="portfolio-single.html"><span class="ti-link"></span></a>
-          </div>
-           </div>
-        </div>
-       </div>      
-        </div>
-    </div>
-    <div class="grid-item corporate">
-      <div class="portfolio-item">
-     <div class="item">
-      <div class="item-hover">
-          <div class="item-inner">
-        <img class="img-responsive" src="images/portfolio/05.jpg" alt=""></div>
-         <div class="item-info">
-         <a href="index.html#">  work item one</a>
-          <span>by Sam Martin</span>
-          <div class="item-link">
-           <a class="portfolio-img" href="images/portfolio/05.jpg"><span class="ti-plus"></span></a>
-           <a href="portfolio-single.html"><span class="ti-link"></span></a>
-          </div>
-           </div>
-        </div>
-       </div>      
-        </div>  
-    </div>
-    <div class="grid-item">
-      <div class="portfolio-item">
-     <div class="item">
-      <div class="item-hover">
-          <div class="item-inner">
-        <img class="img-responsive" src="images/portfolio/06.jpg" alt=""></div>
-         <div class="item-info">
-         <a href="index.html#">  work item one</a>
-          <span>by Sam Martin</span>
-          <div class="item-link">
-           <a class="portfolio-img" href="images/portfolio/06.jpg"><span class="ti-plus"></span></a>
-           <a href="portfolio-single.html"><span class="ti-link"></span></a>
-          </div>
-           </div>
-        </div>
-       </div>      
-        </div>
-    </div>
-    <div class="grid-item justice-fight">
-      <div class="portfolio-item">
-     <div class="item">
-      <div class="item-hover">
-          <div class="item-inner">
-        <img class="img-responsive" src="images/portfolio/07.jpg" alt=""></div>
-         <div class="item-info">
-         <a href="index.html#">  work item one</a>
-          <span>by Sam Martin</span>
-          <div class="item-link">
-           <a class="portfolio-img" href="images/portfolio/07.jpg"><span class="ti-plus"></span></a>
-           <a href="portfolio-single.html"><span class="ti-link"></span></a>
-          </div>
-           </div>
-        </div>
-       </div>      
-        </div> 
-    </div>
-      <div class="grid-item justice-fight">
-        <div class="portfolio-item">
-     <div class="item">
-      <div class="item-hover">
-          <div class="item-inner">
-        <img class="img-responsive" src="images/portfolio/08.jpg" alt=""></div>
-         <div class="item-info">
-         <a href="index.html#">  work item one</a>
-          <span>by Sam Martin</span>
-          <div class="item-link">
-           <a class="portfolio-img" href="images/portfolio/08.jpg"><span class="ti-plus"></span></a>
-           <a href="index.html#"><span class="ti-link"></span></a>
-          </div>
-           </div>
-        </div>
-       </div>      
-      </div>  
-    </div>
-   </div>
-  </div>
-</section>
-
-<!--=================================
- portfolio --> 
-
-
-<!--=================================
- calendar --> 
-
-<section id="availability-calendar" class="calendar white-bg page-section">
- <div class="container-fluid">
-   <div class="row">
-	<div class="col-lg-12 col-md-12">
-	 <div class="section-title">
-   	 	 <div class="section-title-name">
-   	 	  	<span>My Availability Calendar</span>
-   	  	  	<h2>Availability Calendar</h2>
-   	    </div>	
-   	    <div class="title-name-gray">
-   	   	<strong>Availability </strong>
-   	   </div>
-   	 </div>
-	</div>
-   </div>	
- <div class="row">
-  <div class="col-lg-12 col-md-12">
-    <div class="main-calendar clearfix">
-         <div class="row">   
-         <div class="col-lg-7 col-md-7">   
-           <div class="calendar-section">
-        	<div class="calendar-block"> <div id="datepicker"> </div> 
-			</div>
-			</div>
-			</div>
-			 <div class="col-lg-5 col-md-5">  
-            <div class="date-block">
-            	<div class="date-area">
-                	<span class="day" id="day">Sonday</span><span class="date" id="date">27</span><span class="month" id="mnt">March</span><div class="clr"></div>
-            	</div>
-                <div class="dateinfo">
-                	<div class="block"><span class="today"></span>Today</div>
-                    <div class="block"><span class="not-ava"></span> Sorry. I am not available on those days </div>
-                    <div class="block"><span class="available"></span>All other days i am available </div>
-                </div>
-              </div>
-			       </div>
-            <div class="clr"></div>
+    <div class="container-fluid">
+        <div class="content" data-container="content">
+            <h1 style="text-align: center;">Адвокат по уголовным&nbsp;делам</h1>
+            <ul>
+                <li style="text-align: left;"><p><strong><span style="font-size: 14pt;">Член Президиума Свердловской областной Гильдии адвокатов</span></strong>
+                </p></li>
+                <li style="text-align: left;"><p><strong><span
+                        style="font-size: 14pt;">Юридический стаж 19 лет</span></strong></p></li>
+                <li style="text-align: left;"><p><strong><span style="font-size: 14pt;">В прошлом зам. прокурора Орджоникидзевского р-на г. Екатеринбурга</span></strong>
+                </p></li>
+            </ul>
+            <div style="text-align:center;">&nbsp;&nbsp;<img src="images/files/3jMX.png" alt="" width="1019" height="105"></div>
+            <h2 style="text-align: center;"><strong><span style="font-size: 14pt;">Срочная консультация опытного адвоката по уголовным делам в Екатеринбурге:</span></strong>
+            </h2>
+            <p style="text-align: center;"><span
+                    style="font-size: 36pt; color: #ff0000;"><strong class="responsive-phone">+7 (912) 631-20-28</strong></span></p>
+            <div style="text-align: center;"><span style="font-size: 36pt;"><strong><img src="images/files/3jMX.png"
+                                                                                         alt="" width="1019"
+                                                                                         height="105"></strong></span>
             </div>
-        </div> 
-       </div>
+            <p>&nbsp;</p><h4><strong><span
+                    style="font-size: 12pt;">Важно!&nbsp;Ваши действия при задержании:</span></strong></h4>
+            <ul>
+                <li><span style="font-size: 12pt;">Не реагируйте на угрозы и уговоры сотрудников полиции</span></li>
+                <li><span style="font-size: 12pt;">Откажитесь от дачи показаний</span></li>
+                <li><span style="font-size: 12pt;">Не давайте объяснения и показания без своего защитника</span></li>
+                <li><span style="font-size: 12pt;">Пригласите своего адвоката по уголовным делам, тел.&nbsp;<strong>+7&nbsp;(912) 631-20-28</strong></span>
+                </li>
+            </ul>
+            <ul>
+                <li><span style="font-size: 12pt;">Знайте по памяти телефоны своих близких</span></li>
+                <li><span style="font-size: 12pt;">Вы имеете право на один телефонный звонок</span></li>
+                <li><span style="font-size: 12pt;">Не пользуйтесь помощью бесплатного, дежурного адвоката</span></li>
+                <li><span style="font-size: 12pt;">Не подписывайте никаких бумаг</span></li>
+            </ul>
+            <h3>&nbsp;</h3><h4><strong><span style="font-size: 16px;">Я&nbsp;могу&nbsp;Вам помочь!</span></strong></h4>
+            <h4><span style="color: #ff0000;"><strong><span style="font-size: 16px;">Консультация&nbsp;уголовного защитника по телефону БЕСПЛАТНО!</span></strong></span>&nbsp;
+            </h4><h4>&nbsp;</h4>
+            <h3 style="text-align: center;"><span
+                    style="font-size: 18pt;">&nbsp;<strong>Адвокат - Константин Янышев</strong></span></h3>
+            <p style="text-align: center;"><img src="images/files/IMG_76231.jpeg" alt="" width="953" height="348"></p><h4
+                    style="text-align: justify; text-indent: 25px;">&nbsp;</h4>
+            <p style="text-align: justify; text-indent: 25px;"><span style="font-size: 12pt;">Психологическое напряжение, растерянность и, зачастую, полное отсутствие понимания того, как защитить свои интересы… Уголовные дела и всё, что с ними связано, всегда приносят массу сложностей. Это может относиться к подозреваемым и обвиняемым, потерпевшим и свидетелям, а также и к тем, чей процессуальный статус ещё не определен. Справиться с эмоциями, трезво оценить ситуацию и разработать стратегию защиты вам поможет <strong>адвокат по уголовным делам</strong>.</span>
+            </p>
+            <div style="text-align: justify; text-indent: 25px;"><span style="font-size: 12pt;">Весь перечень услуг,&nbsp;смотрите в разделе <a
+                    href="services">Услуги</a>.</span></div>
+            <h3 style="text-align: justify; text-indent: 25px;">&nbsp;</h3>
+            <p style="text-align: justify; text-indent: 25px;"><span style="font-size: 18pt;"><em><span
+                    style="color: #ff0000;"><strong style="font-size: 18px;">Виды помощи, оказываемой адвокатом по уголовным делам подозреваемому/обвиняемому, подсудимому:</strong></span></em></span>
+            </p>
+            <div id="sppb-addon-1505997253289" style="text-align: justify; text-indent: 25px; margin: 20px 0;">
+                <div id="list2"><p><span style="font-size: 12pt;"><span style="font-size: 12pt;"><strong><img
+                        src="images/files/sud_main.png" alt="" width="46" height="44"><em>Встреча-консультация с адвокатом по уголовным делам.</em></strong><span>&nbsp;</span>Это первая встреча адвоката и его доверителя, в рамках которой выявляются основные проблемы и возможные пути их решения, вырабатываются позиция защиты и тактика ведения дела в ходе проверки, предварительного следствия и в суде, делаются прогнозы относительно исхода судебного разбирательства.&nbsp;С помощью опытного&nbsp;адвоката можно добиться ускорения рассмотрения дела, так что, с одной стороны, никто из задержанных подозреваемых не будет удерживаться в камере предварительного заключения дольше, чем это необходимо следствию, а с другой - повысится вероятность успешного завершения процесса.</span></span>
+                </p>
+                    <p><span style="font-size: 12pt;"><span style="font-size: 12pt;"><strong><img
+                            src="images/files/sud_main.png" alt="" width="46" height="44"><em>Оказание правовой защиты в ходе предварительного следствия.</em></strong><span>&nbsp;</span>Своевременно поданные ходатайство или жалоба, новые доказательства, предоставленные адвокатом, найденные свидетели (очевидцы) могут существенно изменить ход производства по делу.</span></span>
+                    </p>
+                    <p><span style="font-size: 12pt;"><span style="font-size: 12pt;"><strong><img
+                            src="images/files/sud_main.png" alt="" width="46" height="44"><em>Обязательное участие во всех действиях с участием доверителя.</em></strong><span>&nbsp;</span>В уголовном судопроизводстве адвокат имеет полное право сопровождать подзащитного на допросах, очных ставках и иных следственных действиях в следственных органах и органах дознания полиции, следственного комитета, посещать изоляторы временного содержания и СИЗО.</span></span>
+                    </p>
+                    <p><span style="font-size: 12pt;"><span style="font-size: 12pt;"><strong><img
+                            src="images/files/sud_main.png" alt="" width="46" height="44"><em>Представление интересов обвиняемого в суде.</em></strong><span>&nbsp;</span>Сильный адвокат по уголовным делам должен уметь выбрать оптимальную линию защиты подсудимого, предвидеть потенциально возможные процессуальные ходы оппонентов - стороны государственного обвинения.</span></span>
+                    </p>
+                    <div><span style="font-size: 12pt;"><strong><img src="images/files/sud_main.png" alt="" width="46"
+                                                                     height="44"><em>Профессиональная подготовка апелляционных, кассационных и надзорных жалоб.</em></strong><span>&nbsp;</span>Если осужденный не удовлетворен приговором, всегда есть возможность его обжалования.</span>
+                    </div>
+                </div>
+                <h2 style="text-align: center;" align="center"><strong><span
+                        style="font-size: 18.0pt; line-height: 115%; font-family: 'Verdana','sans-serif'; color: black;">Грамоты и благодарности</span></strong><span
+                        style="font-size: 8pt; line-height: 115%; font-family: Verdana, sans-serif; color: black;"></span>
+                </h2>
+                <p style="text-align: center;" align="center">
+                    <a class="hrefpop" href="images/files/IMG_1240.JPG"><img src="images/files/IMG_1240.JPG" alt="" width="200" height="267"></a>
+                    <a class="hrefpop" href="images/files/IMG_1248.JPG"><img src="images/files/IMG_1248.JPG" alt="" width="200" height="267"></a>
+                    <a class="hrefpop" href="images/files/IMG_1249.JPG"><img src="images/files/IMG_1249.JPG" alt="" width="200" height="267"></a>
+                </p>
+                <p style="text-align: center;" align="center"><a class="hrefpop" href="images/files/IMG_1250.JPG"><img
+                        src="images/files/IMG_1250.JPG" alt="" width="200" height="267"></a><a class="hrefpop"
+                                                                                              href="images/files/IMG_1251.JPG"><img
+                        src="images/files/IMG_1251.JPG" alt="" width="400" height="267"></a></p>
+                <h2 style="text-align: center;"><em><span style="font-size: 18pt;"><strong><span
+                        style="color: #333399;">Профессиональная защита юристом</span></strong></span></em></h2>
+                <div style="text-align: justify; text-indent: 25px;"><span style="font-size: 12pt;">Многие люди ошибочно полагают, что <strong>уголовный&nbsp;защитник</strong>&nbsp;выступает только со стороны защиты подсудимого. Но это не так. ... Наряду с защитой в уголовном процессе обвиняемого, адвокат может представлять на следствии и в суде интересы потерпевшего. Это может быть как физическое лицо, так и предприятие (организация). Законодательством не предусмотрено обеспечение потерпевшего защитой: принято считать, что на его стороне и так выступают следователи и прокуроры.&nbsp;Однако никто не исключает различных субъективных моментов, ведь следователи и прокуроры заинтересованы в скорейшем закрытии уголовного дела, а поиск справедливости по большей части является прерогативой адвокатов.</span>
+                </div>
+                <div style="text-align: justify; text-indent: 25px;">&nbsp;</div>
+                <blockquote><p><strong><span style="font-size: 14pt; color: #ff0000;"><em>"Адвокат - профессионал <span>примет участие во всех следственных мероприятиях, грамотно защитит права доверителя на этапе дознания, разработает линию защиты и стратегию поведения.</span>"</em></span></strong>
+                </p></blockquote>
+                <p style="text-indent: 25px; text-align: left;"><span style="font-size: 12pt;"><strong>Адвокат по уголовным делам&nbsp;</strong>будет полезен и в тех случаях, когда человека вызвали для дачи показаний в качестве свидетеля.&nbsp;Адвокат свидетеля по уголовному делу<strong>&nbsp;</strong>поможет собраться, избежать каких-либо не относящихся к делу вопросов, возможного давления, обеспечит соблюдение прав и не допустит незаконных действий со стороны следствия.&nbsp;Все это сэкономит свидетелю массу времени, усилий и средств, а также поможет сохранить свою репутацию.&nbsp;</span>
+                </p>
+                <p style="text-align: justify; text-indent: 25px;"><span style="font-size: 12pt;">Существует такая поговорка, что у каждой семьи должно быть три доверенных лица (семейный доктор, духовник и адвокат), от которых нельзя ничего скрывать. <strong>Опытный адвокат по уголовным делам в Екатеринбурге</strong> станет гарантом вашей безопасности и помощником в решении даже самых неоднозначных юридических вопросов. </span>
+                </p>
+                <p style="text-align: justify; text-indent: 25px;"><span style="font-size: 12pt;">Если Вы или Ваши близкие оказались в непростой ситуации, вы не знаете, что делать и как быть, обратитесь к специалисту – <strong>Константину Валентиновичу Янышеву.</strong> Один из лучших<strong> адвокатов по уголовным делам в Екатеринбурге</strong> всегда сможет оказать вам всестороннюю поддержку и способствовать наиболее благополучному разрешению проблемы.</span>
+                </p></div>
+        </div>
+
     </div>
-  </div>
 </section>
 
-<!--=================================
- calendar --> 
 
 
-<!--=================================
- blog --> 
 
-<section id="blog" class="blog white-bg page-section">
- <div class="container-fluid">
-   <div class="row">
-	<div class="col-lg-12 col-md-12">
-	 <div class="section-title">
-   	 	 <div class="section-title-name">
-   	 	  	<span>My Latest Blog Posts</span>
-   	  	  	<h2>From the blog </h2>
-   	    </div>	
-   	    <div class="title-name-gray">
-   	   	<strong>Blog</strong>
-   	   </div>
-   	 </div>
-	</div>
-   </div>	
- <div class="row">
-  <div class="col-lg-3 col-md-6 col-sm-6">
-   <div class="blog-block">
-   	  <div class="blog-image">
-   	  	 <img class="img-responsive" src="images/blog/01.jpg" alt="">
-   	  	 <div class="blog-date">
-   	  	 	<span>June <br />05</span>
-   	  	 </div>
-   	  </div>
-   	  <div class="blog-info">
-   	  	<div class="blog-meta">
-   	  		<p><span class="ti-comment-alt"></span> <a href="index.html#">4</a></p>
-   	  		<p><span class="ti-user"></span> <a href="index.html#">Admin </a></p>
-   	  		<p><span class="ti-folder"></span> <a href="index.html#">Development</a></p>
-   	  	</div>
-   	  	<div class="blog-content">
-   	  		<a href="blog-single.html">Are You Famous Or Focused</a>
-   	  		<p>Commodo consequat ut enim ad minim niam, quis nostrud ullamco  nisi ut aliquip exea non veritatis illum laudantium</p>
-   	  		<div class="blog-bottom clearfix">
-   	  		 <div class="button-small">
-   	  			<a href="index.html#">Read More..</a>
-   	  			</div>
-   	  		<div class="social pull-right">
-   	  			<ul>
-		          <li><a href="index.html#"><i class="fa fa-facebook"></i> </a></li>
-		          <li><a href="index.html#"><i class="fa fa-twitter"></i></a></li>
-		          <li><a href="index.html#"><i class="fa fa-linkedin"></i> </a></li>
-		   	  	</ul>
-   	  		</div>	
-   	  	 </div>
-   	  	</div>
-   	  </div>
-   </div>
-  </div>
-  <div class="col-lg-3 col-md-6 col-sm-6">
-   <div class="blog-block">
-   	  <div class="blog-image">
-   	  	 <img class="img-responsive" src="images/blog/02.jpg" alt="">
-   	  	 <div class="blog-date">
-   	  	 	<span>Aug <br />15</span>
-   	  	 </div>
-   	  </div>
-   	  <div class="blog-info">
-   	  	<div class="blog-meta">
-   	  		<p><span class="ti-comment-alt"></span> <a href="index.html#">0</a></p>
-   	  		<p><span class="ti-user"></span> <a href="index.html#">Admin </a></p>
-   	  		<p><span class="ti-folder"></span> <a href="index.html#">Web Design</a></p>
-   	  	</div>
-   	  	<div class="blog-content">
-   	  		<a href="blog-single.html">Does Your Life Lack Meaning</a>
-   	  		<p>Exercitation ullamco laboris nisi ut aliquip exea commodo consequat ut enim ad minim niam quis minim nostrud. </p>
-   	  		<div class="blog-bottom clearfix">
-   	  		 <div class="button-small">
-   	  			<a href="index.html#">Read More..</a>
-   	  			</div>
-   	  		<div class="social pull-right">
-   	  			<ul>
-		          <li><a href="index.html#"><i class="fa fa-facebook"></i> </a></li>
-		          <li><a href="index.html#"><i class="fa fa-twitter"></i></a></li>
-		          <li><a href="index.html#"><i class="fa fa-linkedin"></i> </a></li>
-		   	  	</ul>
-   	  		</div>	
-   	  	 </div>
-   	  	</div>
-   	  </div>
-   </div>
-  </div>
-  <div class="col-lg-3 col-md-6 col-sm-6">
-   <div class="blog-block">
-   	  <div class="blog-image">
-   	  	 <img class="img-responsive" src="images/blog/03.jpg" alt="">
-   	  	 <div class="blog-date">
-   	  	 	<span>Sep <br />11</span>
-   	  	 </div>
-   	  </div>
-   	  <div class="blog-info">
-   	  	<div class="blog-meta">
-   	  		<p><span class="ti-comment-alt"></span> <a href="index.html#">7</a></p>
-   	  		<p><span class="ti-user"></span> <a href="index.html#">Admin </a></p>
-   	  		<p><span class="ti-folder"></span> <a href="index.html#">WordPress</a></p>
-   	  	</div>
-   	  	<div class="blog-content">
-   	  		<a href="blog-single.html">Harness The Power Of Your Dreams</a>
-   	  		<p>Auis nostrud exercitation ullamco laboris nisi ut aliquip exea commodo consequat at enim ad minim niam.  </p>
-   	  		<div class="blog-bottom clearfix">
-   	  		 <div class="button-small">
-   	  			<a href="index.html#">Read More..</a>
-   	  			</div>
-   	  		<div class="social pull-right">
-   	  			<ul>
-		          <li><a href="index.html#"><i class="fa fa-facebook"></i> </a></li>
-		          <li><a href="index.html#"><i class="fa fa-twitter"></i></a></li>
-		          <li><a href="index.html#"><i class="fa fa-linkedin"></i> </a></li>
-		   	  	</ul>
-   	  		</div>	
-   	  	 </div>
-   	  	</div>
-   	  </div>
-   </div>
-  </div>
-  <div class="col-lg-3 col-md-6 col-sm-6">
-   <div class="blog-block">
-   	  <div class="blog-image">
-   	  	 <img class="img-responsive" src="images/blog/04.jpg" alt="">
-   	  	 <div class="blog-date">
-   	  	 	<span>Dec <br />22</span>
-   	  	 </div>
-   	  </div>
-   	  <div class="blog-info">
-   	  	<div class="blog-meta">
-   	  		<p><span class="ti-comment-alt"></span> <a href="index.html#">10</a></p>
-   	  		<p><span class="ti-user"></span> <a href="index.html#">Admin </a></p>
-   	  		<p><span class="ti-folder"></span> <a href="index.html#">Magento</a></p>
-   	  	</div>
-   	  	<div class="blog-content">
-   	  		<a href="blog-single.html">Does Your Life Lack Meaning</a>
-   	  		<p>Mostrud exercitation ullamco laboris nisi ut aliquip exea ut enim ad minim niam quis and commodo consequat. </p>
-   	  		<div class="blog-bottom clearfix">
-   	  		 <div class="button-small">
-   	  			<a href="index.html#">Read More..</a>
-   	  			</div>
-   	  		<div class="social pull-right">
-   	  			<ul>
-		          <li><a href="index.html#"><i class="fa fa-facebook"></i> </a></li>
-		          <li><a href="index.html#"><i class="fa fa-twitter"></i></a></li>
-		          <li><a href="index.html#"><i class="fa fa-linkedin"></i> </a></li>
-		   	  	</ul>
-   	  		</div>	
-   	  	 </div>
-   	  	</div>
-   	  </div>
-   </div>
-  </div>
- </div>
- </div>
-</section>
 
-<!--=================================
- calendar --> 
- 
 
-<!--=================================
- blog --> 
 
-<section id="testimonials" class="testimonials white-bg page-section-pt">
- <div class="container-fluid">
-   <div class="row">
-	<div class="col-lg-12 col-md-12">
-	 <div class="section-title">
-   	 	 <div class="section-title-name">
-   	 	  	<span>Look at their opinions!</span>
-   	  	  	<h2>Testimonials </h2>
-   	    </div>	
-   	    <div class="title-name-gray">
-   	   	<strong>Testimonials</strong>
-   	   </div>
-   	 </div>
-	</div>
-   </div>	
- <div class="row">
-  <div class="col-lg-4 col-md-4 col-sm-4">
-    <div class="testimonials-block">
-      <div class="testimonials-content">
-      	 <div class="testimonials-avtar">
-      	 	<img class="imgresponsive" src="images/testimonials/01.jpg" alt="">
-      	 </div>
-      	 <div class="testimonials-comment">
-      	 	<p>Are you considering buying a compatible inkjet cartridge for your printer? There are many reputed companies like Canon, Epson, Dell, and Lexmark </p>
-      	 </div>
-      </div>
-      <div class="testimonials-name">
-      	<h4>Michael Bean</h4>
-      	<span>Project manager</span>
-      </div>	
-    </div>
-    <div class="testimonials-block">
-      <div class="testimonials-content">
-      	 <div class="testimonials-avtar">
-      	 	<img class="imgresponsive" src="images/testimonials/02.jpg" alt="">
-      	 </div>
-      	 <div class="testimonials-comment">
-      	 	<p> Sports betting While most people enjoy casino gambling, lottery and bingo playing for the fun and excitement it provides, others may experience gambling as an addictive and distractive habit. </p>
-      	 </div>
-      </div>
-      <div class="testimonials-name">
-      	<h4>Joana Williams</h4>
-      	<span>Executive Director</span>
-      </div>	
-    </div>
-  </div>
-  <div class="col-lg-4 col-md-4 col-sm-4">
-    <div class="testimonials-block">
-      <div class="testimonials-content">
-      	 <div class="testimonials-avtar">
-      	 	<img class="imgresponsive" src="images/testimonials/03.jpg" alt="">
-      	 </div>
-      	 <div class="testimonials-comment">
-      	 	<p>While most people enjoy casino gambling, sports betting, lottery and bingo playing for the fun and excitement it provides, others may experience gambling as an addictive and distractive habit. </p>
-      	 </div>
-      </div>
-      <div class="testimonials-name">
-      	<h4>Paul Flavius</h4>
-      	<span>Managing Director</span>
-      </div>	
-    </div>
-    <div class="testimonials-block">
-      <div class="testimonials-content">
-      	 <div class="testimonials-avtar">
-      	 	<img class="imgresponsive" src="images/testimonials/04.jpg" alt="">
-      	 </div>
-      	 <div class="testimonials-comment">
-      	 	<p>Despite the advancements few would argue that, of feminism over the past three </p>
-      	 </div>
-      </div>
-      <div class="testimonials-name">
-      	<h4>Felica Queen</h4>
-      	<span>Department Head</span>
-      </div>	
-    </div>
-  </div>
-  <div class="col-lg-4 col-md-4 col-sm-4">
-    <div class="testimonials-block">
-      <div class="testimonials-content">
-      	 <div class="testimonials-avtar">
-      	 	<img class="imgresponsive" src="images/testimonials/05.jpg" alt="">
-      	 </div>
-      	 <div class="testimonials-comment">
-      	 	<p>Few would argue that, despite the advancements of feminism over the past three </p>
-      	 </div>
-      </div>
-      <div class="testimonials-name">
-      	<h4>Michael Bean</h4>
-      	<span>Team Leader</span>
-      </div>	
-    </div>
-    <div class="testimonials-block">
-      <div class="testimonials-content">
-      	 <div class="testimonials-avtar">
-      	 	<img class="imgresponsive" src="images/testimonials/06.jpg" alt="">
-      	 </div>
-      	 <div class="testimonials-comment">
-      	 	<p>Today, many people rely on computers to do homework, work, and create or store useful information.</p>
-      	 </div>
-      </div>
-      <div class="testimonials-name">
-      	<h4>Mellissa Doe</h4>
-      	<span>Section Head</span>
-      </div>	
-    </div>
-  </div>
- </div>
- </div>
-</section>
 
-<!--=================================
- calendar --> 
+
+
+
 
 
 <!--=================================
  contact --> 
 
-<section id="contact" class="google-map white-bg page-section-pt">
+<section id="contact" class="google-map page-section-pt footer">
  <div class="container-fluid">
-  <div id="google-map">
-	 <div id="map-canvas"></div>
- </div>
- <div class="contact">  
- 	<h2>Say Hi It’s Free! </h2>
- 	<div class="address">
- 	  <ul>
- 	  	<li><span class="ti-location-pin"></span> <p>24 SL Road, London. UK</p> </li>
- 	  	<li><span class="ti-marker-alt"></span> <p>sam@website.com </p></li>
- 	  	<li><span class="ti-mobile"></span> <p>(123)-456-7890 </p></li>
- 	  	<li><span class="ti-printer"></span> <p>(098)-765-4321 </p></li>
- 	  </ul>
- 	</div>
- 	<div class="social">
- 	 <h4>I'm also on Social Networks</h4>
- 	 <p>Follow me on social networks to get the latest news, blog, updates and much more.</p>
-	 <ul>
- 	  	 <li><a href="index.html#"><i class="fa fa-facebook"></i></a></li>
-         <li><a href="index.html#"><i class="fa fa-twitter"></i></a></li>
-         <li><a href="index.html#"><i class="fa fa-dribbble"></i> </a></li>
-         <li><a href="index.html#"><i class="fa fa-vimeo"></i> </a></li>
-         <li><a href="index.html#"><i class="fa fa-pinterest-p"></i> </a></li>
-         <li><a href="index.html#"><i class="fa fa-behance"></i> </a></li>
-         <li><a href="index.html#"><i class="fa fa-linkedin"></i> </a></li>
- 	  </ul>
- 	</div>
-  <div class="button-large"><a href="index.html#">Download my CV</a></div>
- </div>
- <div class="contact-form">
-   <div id="contact-wrapper">
-    <div class="contact-content">
-     <div id="formmessage">Success/Error Message Goes Here</div>
-       <form class="form-horizontal" id="contactform" method="post" action="http://themes.potenzaglobalsolutions.com/html/sam-martin/lawyer/layout-2/php/contact-form.php">
-          <div class="contact-form">
-            <h4>Drop me a line</h4>
-            <p>Use this form to tell me about your project goals and needs. I will be in touch within 24 hours.</p>
-               <input id="name" type="text" placeholder="Name*"  name="name">
-               <input type="email" placeholder="Email*" name="email">
-               <input type="text" placeholder="Phone*" name="phone">
-               <textarea class="input-message" placeholder="Comment*" rows="7" name="message"></textarea>
-             <input type="hidden" name="action" value="sendEmail"/>
-            <button id="submit" name="submit" type="submit" value="Send" class="button-small"> Say Hello! </button>
-          </div> 
-        </form>
-        <div id="ajaxloader" style="display:none"><img class="center-block" src="images/ajax-loader-white.gif" alt=""></div>
-   </div>
-   <a href="index.html#" class="contact-toggle"><span class="ti-comments"></span></a>
-  </div>
- </div>
+
+     <div class="content">
+         <div class="clearfix">
+             <div class="left">
+                 <p>Телефон: <span>+7 (912) 631-20-28</span></p>
+             </div>
+             <div class="center">
+                 <p>© 2017&nbsp;Адвокат ЯНЫШЕВ&nbsp;Константин Валентинович</p>
+             </div>
+             <div class="right">
+                 <p>Разработано в</p>
+                 <a href="http://prakula.ru/" target="_blank">PR Akula</a>
+             </div>
+         </div>
+     </div>
+
  </div>
 </section>
 
@@ -1182,38 +561,7 @@
  contact --> 
 
 
-<!--=================================
- color customizer --> 
- 
- <div class="style-customizer closed">
-  <div class="buy-button"> <a class="opener" href="index.html#"><i class="fa fa-cog fa-spin"></i></a>  </div>
-  <div class="clearfix content-chooser">
-     <a target="_blank" class="button" href="https://themeforest.net/item/sam-martin-personal-vcard-resume-html-template/16795240?ref=Potenzaglobalsolutions">purchase now</a> 
-      <h3>Color Schemes</h3>
-      <p>Which theme color you want to use? Here are some predefined colors.</p>
-      <ul class="styleChange clearfix">
-        <li class="skin-default selected" title="Default" data-style="skin-default" ></li>
-        <li class="skin-blue" title="Blue" data-style="skin-blue" ></li>
-        <li class="skin-green" title="green" data-style="skin-green"></li>
-        <li class="skin-olive" title="Olive" data-style="skin-olive"></li>
-        <li class="skin-salmon" title="Salmon" data-style="skin-salmon"></li>
-        <li class="skin-lime" title="Lime" data-style="skin-lime"></li>
-        <li class="skin-pink" title="Pink" data-style="skin-pink" ></li>
-        <li class="skin-yellow" title="Yellow" data-style="skin-yellow"></li>
-      </ul>
-      <h3>Layout Options</h3>
-      <p>Which Layout options you want to use? Choose from below options.</p>
-      <ul class="layout">
-        <li><a href="../layout-1/index.html"><img class="img-responsive" src="images/color-customizer/layout-01.png" alt=""></a></li>
-        <li><a href="index.html"><img class="img-responsive" src="images/color-customizer/layout-02.png" alt=""></a></li>
-        <li><a href="../layout-3/index.html"><img class="img-responsive" src="images/color-customizer/layout-03.png" alt=""></a></li>
-      </ul>
-  </div>
-</div>
 
- <!--=================================
- color customizer --> 
- 
 
 <!--=================================
  javascript --> 
@@ -1227,15 +575,12 @@
 <!-- Plugins -->
 <script type="text/javascript" src='js/plugins.js'></script>
 
-<!-- map script -->
-<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDjVoaCW3PAn52C7WPpJ7NBBqU1_TUfnSI" type="text/javascript"></script>
-<script type="text/javascript" src="js/map-scripts.js"></script>
+
 
 <!-- datepicker -->
 <script type="text/javascript" src="js/datepicker-script.js"></script>
 
-<!-- style customizer  -->
-<script type="text/javascript" src="js/style-customizer.js"></script>
+
 
 <!-- custom -->
 <script type="text/javascript" src="js/custom.js"></script>

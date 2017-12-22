@@ -1,14 +1,4 @@
 
-/*
-
-Template: Sam Martin - Personal Vcard Resume HTML Template
-Author: potenzaglobalsolutions.com
-Version: 1.0
-Design and Developed by: potenzaglobalsolutions.com
-
-NOTE:  
-
-*/
 
 
 /*================================================
@@ -35,14 +25,18 @@ NOTE:
 (function($){
   "use strict";
  
-  $(window).load(function() {
+  $(document).ready(function() {
 
 /*************************
         Preloader
 *************************/  
-   $("#load").fadeOut();
-   $('#loading').delay(0).fadeOut('slow');
+  // $("#load").fadeOut();
+   //$('#loading').delay(0).fadeOut('slow');
 
+
+  $('.phone-button').on('click', function () {
+     $(this).html($(this).data('phone'));
+  });
 /*************************
         Owl carousel
 *************************/
@@ -55,8 +49,17 @@ NOTE:
        smartSpeed:800,
        dots:true,
        nav:false
-      }); 
+      });
+      $('.owl-carousel-1').fadeIn();
+
+      $('.more').on('click', function(){
+          $('.service-block-wrapper').show();
+          $(this).hide();
+          return false;
+      });
+
   });
+
 
 /*************************
         Menu scroll
@@ -157,7 +160,7 @@ NOTE:
 /*************************
        Intro typer
 *************************/
-  var win = $(window),
+ /* var win = $(window),
       foo = $('#typer');
       foo.typer(['<h2>Associate / Family Lawyer </h2>', '<h2>Attorney General / Property Lawyer</h2>' ]);
             win.resize(function(){
@@ -165,7 +168,7 @@ NOTE:
               foo.css({
               fontSize: fontSize * .3 + 'px'
             });
-  }).resize();
+  }).resize();*/
 
 /*************************
           Skill
@@ -251,6 +254,24 @@ $('.popup-portfolio').magnificPopup({
                 return item.el.attr('title') + '<small>by Marsel Van Oosten</small>';
             }
        }
+});
+
+$('.hrefpop').magnificPopup({
+
+    type: 'image',
+    tLoading: 'Loading image #%curr%...',
+    mainClass: 'mfp-img-mobile',
+    gallery: {
+        enabled: true,
+        navigateByImgClick: true,
+        preload: [0,1] // Will preload 0 - before current, and 1 after the current image
+    },
+    image: {
+        tError: '<a href="%url%">The image #%curr%</a> could not be loaded.',
+        titleSrc: function(item) {
+            return item.el.attr('title') + '<small>by Marsel Van Oosten</small>';
+        }
+    }
 });
  
 /*************************

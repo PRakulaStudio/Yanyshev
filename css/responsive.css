@@ -1,13 +1,3 @@
-/*
-
-Template:  The Corps - Responsive Multi-purpose HTML5 Template
-Author: potenzaglobalsolutions.com
-Version: 1
-Design and Developed by: potenzaglobalsolutions.com
-
-NOTE: This is responsive stylesheet of template, This file contains the styling for responsive Template.
-
-*/
 
 
 /*****************
@@ -31,7 +21,12 @@ NOTE: This is responsive stylesheet of template, This file contains the styling 
 .blog-info .blog-meta p a { margin-bottom: 3px; }
 .contact .social ul li a { padding-right: 20px; }
 .slidebar-share ul li a { padding: 0 5px; }
+.navbar-default .navbar-brand {
+ font-size: 17px;
+ padding: 20px 0;
+}
 
+ .service-block { margin-bottom: 50px; min-height: 320px; max-height: 370px;}
 
 }	
 
@@ -54,7 +49,7 @@ NOTE: This is responsive stylesheet of template, This file contains the styling 
 .blog-bottom .button-small a { font-size: 12px; padding: 8px 8px; }
 .slidebar-share h4 { font-size: 14px; }
 .portfolio-item .item-info a { font-size: 24px; }
-.navbar-brand img { height: 50px; }
+.navbar-brand  { height: 50px; }
 .navbar-default .navbar-nav > li > a { padding: 40px 12px; }
 #menu.sticky .navbar-nav > li > a { padding: 30px 12px; }
 .container-fluid { padding: 0px 30px; }
@@ -93,13 +88,13 @@ NOTE: This is responsive stylesheet of template, This file contains the styling 
 }
 
 @media (max-width: 1198px) {
-.navbar-brand img { height: 40px; }
+.navbar-brand  { height: 40px; }
 .navbar-default .navbar-nav > li > a { padding: 40px 7px; font-size: 13px; }
-#menu.sticky .navbar-nav > li > a { padding: 30px 7px; }
-#menu.sticky .navbar-brand img { height: 35px; }
-.service-block { margin-bottom: 50px; }
+#menu.sticky .navbar-nav > li > a { padding: 38px 7px; }
+#menu.sticky .navbar-brand {  }
+.service-block { margin-bottom: 50px; min-height: 320px; max-height: 370px;}
 .navbar-brand { padding:32px 0px } 
-#menu.sticky .navbar-brand { padding:22px 0px } 
+#menu.sticky .navbar-brand { padding:22px 0px; }
 
 
 }
@@ -110,6 +105,19 @@ NOTE: This is responsive stylesheet of template, This file contains the styling 
  .chart-bar h3 { font-size: 18px; display: block; padding-left:30px; line-height: 26px; }
 .author-details .author-avtar { display: block; }
 .author-details .author-name { padding-left: 0px; }
+.navbar-default .navbar-brand {
+ font-size: 12px;
+ line-height: 18px;
+ padding: 20px 0;
+}
+
+ .service-block { margin-bottom: 50px; min-height: 330px; max-height: 370px;}
+
+
+.footer .left p {
+ display: flex;
+ flex-direction: column;
+}
 
 }
 
@@ -121,8 +129,8 @@ NOTE: This is responsive stylesheet of template, This file contains the styling 
 .page-header { padding: 50px 10px; height: 360px; }
 .header { position: relative; padding: 0 20px; background: #282828; }
 /*Menu*/
-.navbar-brand { padding: 12px 0px; }
-.navbar-brand img { height: 35px; }
+.navbar-brand { padding: 12px 0px;  height: 35px;}
+.navbar-brand img { }
 .navbar>.container .navbar-brand, .navbar>.container-fluid .navbar-brand { margin-left: 0px; }
  #menu { padding: 0px; }
 .navbar { margin-bottom: 0px; }
@@ -138,7 +146,7 @@ NOTE: This is responsive stylesheet of template, This file contains the styling 
 .navbar-nav li a {padding-top: 10px; padding-bottom: 10px; padding-left: 0px; }
 .collapse.in { display:block !important; }
 .navbar-default .navbar-collapse, .navbar-default .navbar-form { border: none; }
-.navbar { min-height: 60px; padding: 10px 0; }
+.navbar { min-height: 85px; padding: 10px 0; }
 .navbar-toggle .icon-bar { height: 3px; width: 30px; }
 .navbar-custom { border-bottom: none; background-color: #191919; }
 .navbar-header .logo { padding: 0px 0; }
@@ -183,11 +191,27 @@ NOTE: This is responsive stylesheet of template, This file contains the styling 
 .port-title { margin-top: 50px; }
 .contact-content.show-contact { overflow-y: scroll; overflow-x: auto;} 
 .slidebar-widget { margin-bottom: 0px; }
+ .page-section-pt.footer .content  p{
+  font-size: 12px;
+  line-height: 22px;
+ }
+ .page-section-pt.footer .content a{
+  font-size: 13px;
+ }
+
+ .owl-carousel-1 .owl-item img.horiz {
+  display:none;
+ }
+ .owl-carousel-1 .owl-item img.vertical {
+  display:block;
+ }
+
 
 
 }
 
 @media( max-width:767px) {
+ .hrefpop {display: block;}
 .container-fluid { padding: 0 20px; }
 .page-section  { padding: 40px 0px 0; } 
 .resume.page-section { padding-top: 0; }
@@ -207,8 +231,14 @@ NOTE: This is responsive stylesheet of template, This file contains the styling 
 .about-image img { width: 100%; }
 .my-contact .contact-icon span { font-size: 28px; line-height: 40px; }
 .my-contact { margin-top: 30px; }
-
+ .page-section-pt.footer .content  p{
+  font-size: 9px;
+ }
+ .page-section-pt.footer .content a{
+  font-size: 13px;
+ }
 .navbar-default .navbar-collapse.in { height: 100vh; overflow-y: scroll !important; padding-bottom: 60px; }
+
 
 }
 
@@ -217,9 +247,9 @@ NOTE: This is responsive stylesheet of template, This file contains the styling 
 .page-section-pt { padding: 40px 0px 0; }
 .page-section-pb { padding: 0px 0px 40px; }
 .section-title .title-name-gray { display: none; }
-.intro-content h1 { font-size: 34px; }
+.intro-content .header-content { font-size: 34px; }
 #typer h2 { font-size: 20px; }
-.intro-content h1 span { font-size: 24px; }
+.intro-content .header-content span { font-size: 24px; }
 .button-large a { font-size: 14px; }
 .portfolio-item .item-info a { font-size: 20px; }
 .full-screen .grid-item { width: 100%; }
@@ -236,7 +266,12 @@ NOTE: This is responsive stylesheet of template, This file contains the styling 
 .date-area > .date { background: transparent; color: #ffffff; }
 .blog-single .contact-form .section-field { width: 100%; }
 .contact-toggle span { width: 60px; height: 60px; font-size: 20px; line-height: 64px; }
-
+ .page-section-pt.footer .content  p{
+  font-size: 9px;
+ }
+ .page-section-pt.footer .content a{
+  font-size: 13px;
+ }
 }  
 
 @media( max-width:479px) {  
@@ -264,6 +299,33 @@ NOTE: This is responsive stylesheet of template, This file contains the styling 
 .single-portfolio-post .port-post-info { padding-left: 0px; margin-top: 30px; }
 .single-portfolio-post .port-post-social a { display: inline-block; }
 .error p { line-height: 30px; }
+.page-section-pt { padding: 0; }
+ .page-section-pt.footer .content  p{
+  font-size: 11px;
+ }
+ .page-section-pt.footer .content a{
+  font-size: 13px;
+ }
+ .service-block { margin-bottom: 50px; min-height: 281px; max-height: 500px;}
+ .service-block p { max-height: 500px;}
+}
 
-}  
+@media (max-width: 400px) {
+ .page-section-pt.footer .content p {
+  font-size: 8px;
+  line-height: 15px;
+ }
+
+ .responsive-phone {
+  font-size: 28px;
+ }
+}
+
+@media (max-width: 320px) {
+ .navbar-default .navbar-brand{
+   font-size: 14px;
+   padding: 15px 0;
+   height:auto;
+ }
+}
  
