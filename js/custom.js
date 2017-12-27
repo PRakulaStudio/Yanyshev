@@ -58,6 +58,23 @@
           return false;
       });
 
+        var data = [];
+      data['get'] = "orderList";
+      data['token'] = 'TOKEN4TEST2YANYSHEV';
+      data['limit'] = 4;
+      data['offset'] = 0;
+      data['id'] = 'hostStructureMenu';
+      data['template'] = 'service_widget_item';
+
+      $.ajax({
+          data: data,
+          dataType: 'json',
+          method: 'GET',
+          url: 'https://cms.prakula.ru/api/public/getWidget',
+          success: function (data, status) {
+          }
+      });
+
   });
 
 
